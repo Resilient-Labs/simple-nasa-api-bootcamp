@@ -3,6 +3,7 @@ In this project I called an API for NASA's picture of the day & it displays the 
 
 
 **Link to project:** https://sabirlume.github.io/simple-nasa-api-bootcamp2019a-week07/
+
 ![alt tag](nasa.png)
 
 ## How It's Made:

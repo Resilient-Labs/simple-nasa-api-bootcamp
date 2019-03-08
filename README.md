@@ -1,22 +1,17 @@
-# 🚀 Week07 Bootcamp2019a Project: Simple NASA API
+# My NASA Project
+In this project I called an API for NASA's picture of the day & it displays the discription for the picture.
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
 
-### How to submit your code for review:
+**Link to project:** https://sabirlume.github.io/simple-nasa-api-bootcamp2019a-week07/
+![alt tag](nasa.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript, Framework of choice
+
+In this project I created a website that pulls Nasa's API for picture of the day. I used css to center the information displayed. I not only displayed the picture of the day, but also the discription for the pictures. When the user enters a date: Year-Month-Day and press 'submit' the page grabs the information from the API.
+
+
+## Lessons Learned:
+
+In this project I learned how to properly select a element in the html and change what it displays with document.querySelector('img').src = response.hdurl.

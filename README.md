@@ -1,22 +1,15 @@
 # 🚀 Week07 Bootcamp2019a Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+On this site, user must enter a date to get NASA's picture of the day.
 
-### How to submit your code for review:
+![screenshot of project](nasapotd.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech Used:** HTML, JS, NASA apod api
+
+Created a simple layout setup in HTML with my header containing the h1 and the form containing the input and submit button, then a section that will contain the picture of the day, the title and a little description for the picture. Within the Javascript the date entered in by the user is submitted into the api as a parameter. The api returns a json containing all the data it has on the picture for the date searched, and I personally picked the title, description and picture to be displayed into the DOM for the user to see. I used flexbox CSS to style the page.
+
+## Lessons Learned:
+
+I learned that iframes have some weird default styling within the browser. Starting to understand flexbox a bit more and also found a really nice way to remove the input value without using jquery.

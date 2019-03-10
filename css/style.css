@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+  color:white;
+}
+
+h1{
+  text-align: center;
+}
+form{
+  margin-left: 42%;
+  border: 2px solid red;
+  margin-bottom: 12px;
+  width: 13%;
+}
+
+img{
+  height: 600px;
+  margin-left: 15%;
+}
+iframe{
+  margin-left: 15%;
+}

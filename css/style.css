@@ -1,0 +1,30 @@
+img{
+    width: 100%;
+
+}
+body{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+input{
+    width:35%;
+    display:inline-block;
+
+}
+button{
+    background: rgba(75, 255, 51, 0.719);
+    width: 10%;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.nasa{
+    color:red;
+}
+
+.center{
+    width:20%;
+}

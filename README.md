@@ -1,22 +1,17 @@
-# 🚀 Week07 Bootcamp2019a Project: Simple NASA API
+# NASA Picture Of the Day
+This was my first time using an API. The objective was to have the user be able to enter a date and then get in return an image + some other piece of information from the nasa APOD API.
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+![Site screenshot](imagehere)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Really just used some basic HTML & CSS along with the ES6 I used after fetching the data from NASA.
+
+## Optimizations
+There's not much left to optimize. Currently, the image loading happens pretty slowly and with no transition, two things I could probably change. The styling isn't bad but can certainly also use some work.
+
+## Lessons Learned:
+
+This was my first time using APIs so I learned a lot, mainly about how fetching from an API link works and what's needed to use the information that's returned.

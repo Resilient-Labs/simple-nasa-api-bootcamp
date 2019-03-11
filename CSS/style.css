@@ -43,3 +43,6 @@ p{
   font-size: 1.5em;
   background: rgba(0, 0, 0, 0.5);
 }
+iframe{
+  display: none;
+}

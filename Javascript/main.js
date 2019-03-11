@@ -12,7 +12,9 @@ function nasa(e){
         if(response.media_type == "image"){
           document.querySelector('img').src = response.hdurl
         }else{
-          document.querySelector('iframe').src = response.url
+          let iframe=document.querySelector('iframe');
+          iframe.src = response.url
+          iframe.style.display="block"
         }
         document.getElementById('description').innerText= response.explanation;
     })

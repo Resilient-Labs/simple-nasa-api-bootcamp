@@ -1,0 +1,42 @@
+body {
+  background-color: #237;
+}
+
+form {
+  height: 90px;
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.userIn {
+  height: 40px;
+  width: 95%;
+}
+
+.button {
+  height: 40px;
+  margin-left: 36%;
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+span {
+  color: white;
+  margin-left: 44%;
+}
+
+img {
+  height: 300px;
+  width: 30%;
+  margin-left: 34%;
+}

@@ -1,0 +1,30 @@
+*{
+  text-align: center;
+  color: lightgray;
+  background-color: black;
+}
+h1{
+  margin: auto 0 auto 0;
+}
+div{
+  width: 70%;
+  margin: auto;
+  /* background-image: url(defaultPhoto.jpg);
+  background-position: center; */
+}
+img{
+  width: 100%;
+}
+p{
+  margin: 0;
+}
+button,input{
+  margin: 10px;
+}
+iframe{
+  width: 100%;
+  height: 750px;
+}
+.hideInit{
+  display: none;
+}

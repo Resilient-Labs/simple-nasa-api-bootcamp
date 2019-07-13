@@ -1,6 +1,6 @@
 # 🚀 Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+### Goal: Enable users to select a date and return the picture/video of the day from NASA's API
 
 **View project in browser:** https://endev-nasa-simple-api.netlify.com/
 
@@ -8,10 +8,10 @@
 
 ## Design and Development:
 **Tech Used** HTML, CSS, JavaScript: 
-This site was built using HTML, CSS, and media queries for responsiveness. I had a screenshot of the website and replicated the elements to the best of my abilities, making it almost picture perfect!
+Users are able to select a date and retrieve photos or videos from NASA's API. 
 
 ## Lessons Learned:
-This is the first responsive site I designed and developed with the "Mobile First" principle in mind. It was important to think about what functions the user would want / need on a mobile device vs. in a full browser. Planning ahead made it easier to set up and classify elements that needed to be hidden in one query but not others. It also provided a deeper understanding about what responsive web design means: to adapt and be functional across user devices, not just placing everything in one big column. 
+Learned to be mindful about APIs that return different media types to be able to display them properly in the DOM. I wasn't able to clear videos if next date submitted returns an image and vice versa so page refresh is required.
 
 ## API Source:
 **NASA:** https://api.nasa.gov/#live_example

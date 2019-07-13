@@ -7,7 +7,7 @@
 ![alt tag](NASASimple-Screenshot.png)
 
 ## Design and Development:
-**Tech Used** HTML, CSS, JavaScript: 
+**Tech Used** HTML, CSS, JavaScript, API, JSON: 
 Users are able to select a date and retrieve photos or videos from NASA's API. 
 
 ## Lessons Learned:

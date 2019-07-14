@@ -1,22 +1,17 @@
 # 🚀 Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+### Goal: Enable users to select a date and return the picture/video of the day from NASA's API
 
-### How to submit your code for review:
+**View project in browser:** https://endev-nasa-simple-api.netlify.com/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](NASASimple-Screenshot.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Design and Development:
+**Tech Used** HTML, CSS, JavaScript, API, JSON: 
+Users are able to select a date and retrieve photos or videos from NASA's API. 
+
+## Lessons Learned:
+Learned to be mindful about APIs that return different media types to be able to display them properly in the DOM. I wasn't able to clear videos if next date submitted returns an image and vice versa so page refresh is required.
+
+## API Source:
+**NASA:** https://api.nasa.gov/#live_example

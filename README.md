@@ -1,22 +1,26 @@
-# 🚀 Project: Simple NASA API
+# Project: Simple NASA (Complex API 2)
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+### Goal: Enable a user to enter a date and return the picture/video of the day from NASA's API.
 
-### How to submit your code for review:
+### Preview:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](simplenasa.png)
 
-Example:
+### lessons learned:
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+In this Project I learned, that I could create conditional statements that will manipulate the DOM by changing the source of my img DOM element and assigned it the response.url and change its style to display block and my iframe style to display none. i.e:
+if(response.media_type==="image"){
+document.querySelector("img").src = response.url
+document.querySelector("img").style = "display: block"
+document.querySelector("iframe").style = "display: none"
+}
+else if (response.media_type==="video"){
+document.querySelector("iframe").src = response.url;
+document.querySelector("iframe").style = "display: block"
+document.querySelector("img").style = "display: none"
+vid=
+console.log(response)
+}
+ What this bit of code functionality allowed me to do was to display the image from my API response and hide my iframe and vise versa.       
+
 ```

@@ -1,0 +1,43 @@
+html{
+  font-size:2rem,
+}
+
+section{
+  background-color: silver;
+}
+
+img{
+  width: 50%;
+  height: 500px;
+  margin: 40px 0 0 25%;
+}
+
+iframe{
+  width: 50%;
+  height: 500px;
+  margin: 40px 0 0 25%;
+}
+
+h1{
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+h2{
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+h3{
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+form{
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+}

@@ -1,22 +1,19 @@
 # 🚀 Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+The project is webpage that uses an api that allows the user to enter a city and have the weather reported in that city.
 
-### How to submit your code for review:
+<img src="/simplenasass.png?raw=true" alt="screenshot of simple nasa api" height="200px">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+
+## Optimizations (Optional):
+
+N/A
+
+
+## Lessons Learned:
+
+Fetch to connect with API, targeting api data, and reporting that api data to the dom.

@@ -1,0 +1,58 @@
+#date{
+font-size:1rem;
+}
+
+[type="date"]{
+  padding: .5%;
+}
+
+#Submit{
+  padding: .5%;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+form{
+  margin:4%;
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+
+h1{
+  text-align: center;
+}
+
+.video {
+  float: left;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  bottom: 12rem;
+  position: relative;
+  top: -500;
+  /* background-color: black; */
+}
+
+
+#displayImg{
+  display: none;
+}
+
+iframe{
+  width: 92%;
+  height: 500px;
+  /* background-color: red; */
+  position: relative;
+}
+
+#displayVideo{
+  display: none;
+}
+
+body {
+  background-color: lightblue;
+}

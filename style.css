@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+}
+span:first-of-type {
+  margin-left: 35%;
+}
+img {
+  margin-left: 23.5%;
+}
+body {
+  color: white;
+  background: black;
+}

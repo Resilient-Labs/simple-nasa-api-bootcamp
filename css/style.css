@@ -1,0 +1,10 @@
+img, video {
+    display: none;
+}
+
+.container {
+    display: flex;
+    align-self: center;
+    align-content: space-around;
+    flex-direction: column;
+}

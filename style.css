@@ -1,0 +1,22 @@
+section {
+display: flex;
+justify-content: center;
+}
+div{
+  display: inline-block;
+}
+h1{
+  font-size: -webkit-xxx-large;
+  display: flex;
+  justify-content: center;
+}
+input{
+  height:6em;
+}
+#date{
+  font-size: xx-large;
+  text-align: center;
+}
+button{
+  color: #D8A47F;
+}

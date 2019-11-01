@@ -1,0 +1,21 @@
+.dateInput{
+  margin: 1% 1% 1% 20%;
+padding: 1% 1% 1% 20%;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+h2{
+  color: white;
+  text-align: center;
+  font-size: 12;
+}
+
+img{
+  width: 100%;
+height: 601px;
+}
+body{
+  background-color: black;
+}

@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 10px;
+  background-image: url(images/rocket.jpeg);
+}
+h1{
+  font-size: 3rem;
+  color: white;
+}
+input{
+  width: 30%;
+  border-color: black;
+  border-radius: 4px;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+img{
+  width: 60%;
+  height: 542px;
+   margin: 2% 10% 0 10%;
+}
+button{
+  margin-left: 2%;
+  font-size:2rem;
+  border-radius: 4px;
+  color: black;
+  background-color: white;
+  font-family: 'Staatliches', cursive;
+}

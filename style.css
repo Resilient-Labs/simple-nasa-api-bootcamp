@@ -1,0 +1,24 @@
+body {
+  margin-top: 10%;
+  background: url('https://www.highreshdwallpapers.com/wp-content/uploads/2013/01/Outer-Space-Wallpaper.jpg');
+  background-size: cover;
+  margin-left: 35%;
+}
+select {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+option {
+  font-size: 30px;
+}
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+.img {
+  height: 500px;
+  text-align: center;
+  display: block;
+}

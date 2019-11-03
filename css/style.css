@@ -1,0 +1,29 @@
+body {
+background-color: #D4DCFC;
+background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fspacenews.com%2Fwp-content%2Fuploads%2F2018%2F05%2F24359364107_152b0152ff_k-879x485.jpg&f=1&nofb=1);
+color: white;
+text-align: center;
+background-repeat:no-repeat;
+background-size: cover;
+}
+input{
+  width: 90%;
+  height: 40px;
+  font-size: 40px;
+}
+
+button {
+    background-color: #003c92;
+    color: white;
+    width: 8%;
+    height: 46px;
+    display: inline;
+    padding: 22px 0 0 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+  }
+
+.logo {
+width: 40%;
+height:470px;
+}

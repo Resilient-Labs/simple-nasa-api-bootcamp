@@ -5,7 +5,7 @@
 ### Click to Use: https://ecstatic-keller-e79c69.netlify.com/
 
 
-
+![alt text](simpliNASA-API-screenShot.png)
 
 
 - In this project I used a NASA API in order to receive daily pictures from the different NASA stations.

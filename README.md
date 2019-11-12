@@ -1,4 +1,4 @@
-# My To do list
+# Simple NASA API
 This project is a simple NASA API. I was able to utilize a date to request for an image/video from the date that the user inputs, so when you input a date(YYYY-MMM-DD) it will give you the image or video from the date that you've searched for. 
 
 

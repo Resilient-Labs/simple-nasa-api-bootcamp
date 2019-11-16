@@ -5,7 +5,7 @@ Enables the user to enter a date and return the picture/video of the day from NA
 
 ### Goal: Display data returned from an api
 
-![alt tag](comedy.jpg)
+![alt tag](nasaSS.png)
 
 
 TOOLS used: HTML, CSS, JAVASCRIPT

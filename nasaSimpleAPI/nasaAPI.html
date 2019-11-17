@@ -2,14 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>NASA Simple API</title>
+    <link rel="stylesheet" href="nasaAPI.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700&display=swap" rel="stylesheet">
   </head>
   <body>
     <h1>NASA's Photo/Video of the Day</h1>
     <h2>Enter the date in YYYY-MM-DD format (dashes included) to see NASA's chosen photo or video for that day.</h2>
+  <section>
     <input id='input' type="text" name="" value="" placeholder="YYYY-MM-DD">
     <button type="button" name="button">Submit</button>
-    <img src="response.hdurl" alt="">
+  </section>
+    <img width="560" height="315" src="response.hdurl" alt="">
     <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <script type="text/javascript" src="nasaAPI.js">
     </script>

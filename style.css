@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+h1, button, input, p{
+  font-family: sans-serif;
+}
+
+h1{
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 3em;
+  color: RGB(145,180,181);
+  text-shadow: 1px 1px 3px black;
+}
+
+
+button{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(25, 128, 114);
+  background: rgb(23, 230, 250);
+}
+
+img{
+  height: 720px;
+  width: 1024px;
+  margin-left: 16%;
+}
+
+iframe{
+  margin-left: 31%;
+}
+
+input{
+  margin-left: 24%;
+  width: 50%;
+  padding: 5px 10px;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: 1px solid rgb(25, 128, 114;
+  background: rgb(23, 230, 250);
+}

@@ -1,6 +1,9 @@
 
 let datetemplate= document.querySelector('input');
-let buttonElement = document.querySelector('button');
+let buttonElement = document.querySelector('#button1');
+let buttonElement2 = document.querySelector('#button2');
+
+
 buttonElement.addEventListener('click',(function(){
   fetch(`https://api.nasa.gov/planetary/apod?api_key=P8MoaznCZX9CrNEjgG1rwD6geT99yYcX3CjnK9dD&date=${datetemplate.value}`)
     // .value parse calander input date only
@@ -11,11 +14,10 @@ buttonElement.addEventListener('click',(function(){
         if(mediaType === "video"){
           let videoSrc = response.url;
           document.querySelector('iframe').src = videoSrc;
-          document.querySelector('img').style.visibility = "hidden";
+
         }else if(mediaType === "image"){
           let imgSrc= response.url;
           document.querySelector('img').src = imgSrc;
-          document.querySelector('iframe').style.visibility = "hidden";
 
         }
 
@@ -28,3 +30,12 @@ buttonElement.addEventListener('click',(function(){
 
 }
 ))
+buttonElement2.addEventListener('click',(function(){
+  document.querySelector('iframe').style.visibility = "hidden";
+  document.querySelector('img').style.visibility = "hidden";
+
+
+
+
+
+}))

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+html{
+    font-size: 10px;
+}
+
+
+#submit{
+    background-image: url(/simple-nasa-api-bootcamp/assets/gif/earth.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 20%;
+    margin-left:30%;
+    text-align: center;
+    
+}
+.apiImg{
+    height: 200px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

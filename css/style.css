@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/nasa.jpeg);
+}
+
+input {
+  margin-top: 2%;
+  margin-left: 36%;
+  width: 10%;
+  text-align: center;
+  border-radius: 5%;
+  border-style: none;
+  font-size: 16px;
+}
+
+button {
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+span {
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  margin-top: 2%;
+  margin-left: 21%;
+}
+iframe{
+  margin-top: 2%;
+  margin-left: 21%;
+  width: 68%;
+}
+
+/* *****************
+      MEDIA Q
+*******************/
+@media screen and (max-width: 520px) {
+  body {
+    background-size: cover;
+  }
+
+  input {
+    margin-left: 20%;
+    width: 32%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+
+  button {
+    width: 12%;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  span {
+    margin-left: 17%;
+  }
+
+  img {
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 1%;
+  }
+  iframe{
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 1%;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 1400px) {
+  body {
+    background-size: cover;
+  }
+
+  input {
+    margin-left: 20%;
+    width: 12%;
+    margin-top: 2%;
+  }
+
+  button {
+    width: 6%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  img {
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+  }
+  iframe{
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+  }
+}

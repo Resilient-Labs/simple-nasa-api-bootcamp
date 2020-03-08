@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+img{
+  height: 500px;
+  border: solid 2px red;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header{
+  margin-bottom: 100px;
+}
+
+iframe{
+  height: 500px;
+  border: solid 2px black;
+  margin: 0 auto;
+  text-align: center;
+}

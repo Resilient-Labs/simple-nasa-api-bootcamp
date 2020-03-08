@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: purple;
+}
+section{
+  margin-left: 20%;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+img, iframe{
+  height: 700px;
+  width: 70%;
+  border:none;
+}

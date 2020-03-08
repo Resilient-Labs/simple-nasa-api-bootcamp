@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+img{
+      margin-left: 30%;
+}
+body{
+  background-color: black;
+  background-size: cover;
+
+}
+iframe{
+    margin-left: 30%;
+
+}

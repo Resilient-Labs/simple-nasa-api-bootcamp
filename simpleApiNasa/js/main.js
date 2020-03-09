@@ -1,3 +1,5 @@
+//House Gardner worked on this project as a group.
+
 let nasaApi = {
   button: document.querySelector("button"),
   fetchPhoto: () => {
@@ -8,12 +10,12 @@ let nasaApi = {
       document.getElementById("photo").src = response.url;
       document.querySelector("iFrame").src = response.url;
       })
+      
       .catch(err => {
         console.log(`error ${err}`);
         alert("sorry, there are no results for your search");
       })
     }
   }
-
 
 nasaApi.button.addEventListener('click', nasaApi.fetchPhoto);

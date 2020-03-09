@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+  background-color: black;
+  align-content: center;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+iframe {
+  border: none;
+  display: inline;
+}
+#content {
+  align-content: center;
+}
+img {
+margin: 50px auto;
+}
+.searchBox{
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+.searchBox p:first-of-type {
+  font-size: 20px;
+}
+.searchBox p:nth-of-type(2) {
+  font-size: 15px;
+  margin-top: 0;
+}
+.searchBox section{
+  width: 50%;
+  float: left;
+}
+.searchBox form {
+  margin: 30px auto;
+  width: 100%;
+  margin-left: 15%;
+}
+.searchBox input {
+  font-size: 25px;
+}
+.searchBox button {
+  font-size: 25px;
+  background-color: red;
+  color: white;
+}
+#content {
+  width: 100%;
+  min-height: 650px;
+  background-image: url("../images/outerSpaceWeather.jpg");
+  background-size: cover;
+}
+#caption {
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  font-style: italic;
+  padding: 2%;
+}

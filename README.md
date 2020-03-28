@@ -19,4 +19,17 @@ Example:
 I completed the challenge: 5
 I feel good about my code: 4
 I'm not sure if my constructors are setup cleanly...
-```
+``` 
+
+# Link
+https://wonderful-brahmagupta-811d22.netlify.com/
+
+# How It's Made:
+Tech used: HTML, CSS, Javascript, API, 
+
+# Optimizations
+Optimizations would include the user ability to input a year/month/date and get back the NASA picture of the day image or video. 
+
+# Lessons Learned 
+* How to search and use API 
+* How to read and use information from the API database to target specific objects. 

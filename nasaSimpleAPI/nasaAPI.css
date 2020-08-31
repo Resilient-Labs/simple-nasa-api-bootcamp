@@ -1,0 +1,21 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  background-image: url(galaxy.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
+  color: white
+}
+input{
+  width: 8%;
+  font-size: 1em
+}
+button{
+  width: 7%;
+  font-size: 1em;
+}
+section{
+  margin-bottom: 2em;
+}

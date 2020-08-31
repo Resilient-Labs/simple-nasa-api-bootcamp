@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.wonderfulengineering.com%2Fwp-content%2Fuploads%2F2014%2F04%2Fspace-wallpapers-7.jpg&f=1&nofb=1);
+  background-size: 100%;
+}
+form{
+  text-align: center;
+  margin-top: 15%;
+}
+input{
+  width: 15%;
+  color: white;
+  border-radius: 15px;
+  background-color: #8080801a;
+}
+img{
+  margin-left: 30%;
+  width: 40%;
+}
+iframe{
+  margin-left: 8%;
+
+}

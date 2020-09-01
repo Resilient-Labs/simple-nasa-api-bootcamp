@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: RGB(36,89,128);
+}
+h1, h2, p{
+  font-family:sans-serif;
+}
+header{
+  float: left;
+  margin: 30px 0 40px 10%;
+  border-top: 2px dotted white;
+}
+h1{
+  margin: 10px 0;
+  color: white;
+}
+form{
+  display: flex;
+}
+input{
+  padding: 5px 10px;
+  border: none;
+  background: white;
+}
+section{
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 0 0 23%;
+  padding: 10px;
+}
+h2{
+  margin: 0;
+  align-self: center;
+}
+img{
+  width: 100%;
+}

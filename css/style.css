@@ -1,0 +1,58 @@
+body{
+    background-image: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#logo{
+   width: 15%;
+   padding: 30px 0;
+}
+
+#date-input{
+    height: 30px;
+    border: 2px solid #fc3b1b;
+}
+
+#space-dog{
+    top: 50px;
+    width: 12%;
+    position:absolute;
+    animation-name: dog;
+    animation-duration: 10s;
+   
+}
+
+/* @keyframes dog{
+    0% {left:-600px; top:0px;}
+    25%  {left:-450px; top:0px;}
+    50%  {left:250px; top:0px;}
+    75%  {left:450px; top:0px;}
+    100% {left:800px; top:0px;} */
+
+@keyframes dog{
+	from { 	transform: rotate(0deg) translateX(100px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+
+#search-btn{
+    font-size:20px;
+    padding: 4px;
+    background: #033a92;
+    border: 2px solid #fc3b1b;
+    color: #FFF;
+}
+
+h1{
+    color: #FFF;
+    font-family: "orbitron";
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 85px 0;
+}

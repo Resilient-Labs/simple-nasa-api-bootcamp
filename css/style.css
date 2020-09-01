@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-image: url(../assets/img/space_art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(255, 253, 112);
+}
+input{
+    height: 40px;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    border-color: rgb(90, 255, 13);
+    background-color: blueviolet;
+    padding-left: 2%;
+}
+.clickSpan{
+    display: block;
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 55px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: rgb(90, 255, 13);
+    border-radius: 20px;
+    background-color: rgba(68, 61, 61, 0.712);
+}
+.apiImg{
+    height: 300px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border: 1px solid yellow;
+
+}
+.inputDate{
+    text-align: center;
+}
+.dateSpan{
+    font-size: 2rem;
+    display: inline;
+    background-color: transparent;
+    color: rgb(255, 253, 112);
+    margin-right: 2%;
+}
+
+#btn-submit{
+    background-image: url(../assets/gif/earth2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 120px;
+    width: 10%;
+    margin:auto;
+    text-align: center;
+
+    
+}
+#content{
+    height: 300px;
+}

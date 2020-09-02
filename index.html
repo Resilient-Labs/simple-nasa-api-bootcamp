@@ -10,19 +10,21 @@
 </head>
 <body>
     <section class="container">
-        <img id="space-dog" src="img/spacedoggo.gif" alt="">
-            <img id="logo" src="img/nasalogo.png" alt="">
+        <img id="space-dog" src="img/spacedoggo.gif" alt="">  
+        <img id="logo" src="img/nasalogo.png" alt="">
             <form action="index.html" method="POST">
-                <input type="text" id="date-input">
+                <input type="date" id="date-input" placeholder="YYYY-MM-DD">
                 <button id="search-btn" type="button"><i class="fas fa-rocket"></i></button>
             </form>
             <h1>Archived Photo of the Day</h1>
         <section class="results">
             <img id="img-result" src="" alt="">
-            <iframe src="" frameborder="0"></iframe>
+            <div>
+                <iframe class="hide-vid" src="" frameborder="0"></iframe>
+            </div>
         </section>
         <section class="text-result">
-            <p class="credit"></p>
+            <h2 id="title"></h2>
             <p id="about"></p>
         </section>
     </section>

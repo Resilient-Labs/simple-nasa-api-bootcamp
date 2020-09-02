@@ -1,6 +1,5 @@
 body{
-    background-image: url('../img/bg2.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../img/bg5.jpg');
     background-size: cover;
     
 }
@@ -19,23 +18,22 @@ body{
     top: 50px;
     width: 12%;
     position:absolute;
-    animation-name: dog;
-    animation-duration: 10s;
-   
+    top: 40px;
+    left: 43%;
+    animation-name:dog;
+    animation-duration: 12s;
 }
 
-/* @keyframes dog{
-    0% {left:-600px; top:0px;}
+
+@keyframes dog{
+    from {-webkit-transform: rotateZ(0deg)}
+    to {-webkit-transform: rotateZ(360deg)}
+    /* 0% {left:-600px; top:0px;}
     25%  {left:-450px; top:0px;}
     50%  {left:250px; top:0px;}
     75%  {left:450px; top:0px;}
     100% {left:800px; top:0px;} */
-
-@keyframes dog{
-	from { 	transform: rotate(0deg) translateX(100px) rotate(0deg); }
-	to   {  transform: rotate(360deg) translateX(100px) rotate(-360deg); }
 }
-
 
 #search-btn{
     font-size:20px;
@@ -45,14 +43,36 @@ body{
     color: #FFF;
 }
 
-h1{
+h1, #title, #about{
     color: #FFF;
     font-family: "orbitron";
 }
 
+#about{
+    padding: 0 20%;
+    text-align: justify;
+    font-family: "arial";
+    letter-spacing: 1px;
+}
+
 .container{
     display:flex;
+    text-align: center;
+    line-height: 20px;
     align-items: center;
     flex-direction: column;
     padding: 85px 0;
+}
+
+#img-result{
+    width: 30%;
+}
+
+div{
+    text-align:center;
+    width:100%;
+}
+
+.hide-vid{
+    display: none;
 }

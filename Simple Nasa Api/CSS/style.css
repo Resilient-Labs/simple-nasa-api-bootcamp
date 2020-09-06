@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  /* credit to Artem Mironov  */
+  background-image: url('https://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/09/15/101019541-0a10d5c6-caeb-4947-8bac-b4fee12e695e.jpg');
+  background-size: cover;
+ }
+input{
+  margin-left: 40%;
+}
+p{
+  color: white;
+}
+h2{
+  text-align: center;
+  color: white;
+}
+img{
+  margin-left: 34%;
+  margin-top: 4%;
+  height: 22rem;
+}

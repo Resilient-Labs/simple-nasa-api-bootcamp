@@ -1,17 +1,17 @@
 let button = document.getElementById('search-btn')
-button.addEventListener("click", ()=>{
-  let date = document.getElementById("date-input").value
+button.addEventListener("click", ()=>{ //eventlistener and annoymous function with fetch 
+  let date = document.getElementById("date-input").value //user input 
   fetch(`https://api.nasa.gov/planetary/apod?api_key=9DFi11zjvYxmjEmwhvQZDaU2yZMmdKomQiucHo1B&date=${date}`)
     .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
     .then(response => {
       console.log(response)
-      document.getElementById('title').textContent = response.title
+      document.getElementById('title').textContent = response.title //places data in the html
       document.getElementById('about').textContent = response.explanation
-   if (response.media_type === 'video'){
-    document.querySelector('iFrame').classList.remove("hide-vid")
-    document.querySelector('iFrame').src =response.url;
+   if (response.media_type === 'video'){ //if data is video display in iframe
+    document.querySelector('iFrame').classList.remove("hide-vid") //removes class to show iframe
+    document.querySelector('iFrame').src = response.url;
    } else{
-     document.getElementById('img-result').src =response.url;
+     document.getElementById('img-result').src = response.url; //only show image
    }
     })
 })
@@ -25,7 +25,7 @@ button.addEventListener("click", ()=>{
 
 // https://api.nasa.gov/planetary/apod?api_key=Jnbw77bmMCtVMnkggF2NsnUgMa25I207L1D3MhT6
 
-//attempt to make OOP 
+//attempt to make OOP
 
 //let nasa = {
 //     searchBtn: document.querySelector('button'),
@@ -40,14 +40,13 @@ button.addEventListener("click", ()=>{
 //                 document.getElementById('img-result').src = data.url;
 //             }else if (data.media_type == 'video'){
 //                 document.querySelector('iFrame').src = data.url;
-//             }      
+//             }
 //         })
-    
-    
+
+
 //         .catch(err => {
 //             console.log(`error ${err}`);
 //         alert("Sorry, no available results for this search");
 //         })
 //     }
 // }
-

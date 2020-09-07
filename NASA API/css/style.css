@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 750px;
+}
+.holder{
+  width: 70%;
+  height: 700px;
+  margin-left: 15%;
+
+  background-color: rgba(246, 246, 246, 50%);
+}
+.logo{
+  width: 100%;
+  height: 150px;
+}
+#logo{
+  max-width: 80%;
+  height: 110px;
+  margin-left: 38%;
+}
+.form{
+  width: 100%;
+  height: 50px;
+}
+#searchTerm{
+  margin-left: 38%;
+}
+.info{
+  width: 100%;
+  height: 500px;
+}
+.info, p, #bottomImg , iframe{
+  width: 90%;
+  margin-left:5%;
+  text-align: center;
+}
+#bottomImg{
+  max-width: 420px;
+  margin-left: 23%;
+}
+p{
+  font-size: 12px;
+  font-family: monospace;
+}
+
+iframe{
+  width: 60%;
+  height: 300px;
+  margin-left: 20%;
+  padding-bottom: 50px;
+}

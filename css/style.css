@@ -1,0 +1,52 @@
+body{
+  color: white;
+  font-family: 'Space Mono', monospace;
+  background-color: rgb(14,14,14);
+}
+.titleSec{
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+h1{
+  display: inline;
+  margin: 0;
+}
+p{
+  margin: 0
+}
+.desc{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.displaySec{
+  display: flex;
+  justify-content: center;
+}
+.headline{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.info{
+  display: flex;
+  justify-content: center;
+}
+.inputSec{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.logo{
+  float: right;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+footer{
+  margin-left: 38%;
+  margin-right: 38%;
+}

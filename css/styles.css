@@ -1,0 +1,16 @@
+iframe{
+  display: none;
+}
+body{
+  background-image: url(../img/ship1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+}
+img{
+  height: 200px;
+}

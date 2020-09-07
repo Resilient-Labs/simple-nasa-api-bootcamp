@@ -1,0 +1,35 @@
+*{
+  text-align: center;
+}
+body{
+  background-image: url("background.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize background image to conver entire container*/
+}
+h1{
+  margin-top: 5%;
+}
+
+h1, h2{
+  color: white;
+}
+
+input, button{
+  height: 30px;
+  border-radius: 3px;
+  outline: none;
+}
+
+img{
+  height: 30rem;
+  margin-bottom: 2%;
+ }
+
+iframe{
+  height: 30rem;
+  width: 20rem;
+
+}

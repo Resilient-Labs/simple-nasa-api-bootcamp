@@ -6,7 +6,7 @@ Live Code:
 ### Tech used: 
 HTML, CSS and JS. Used the NASA API to present an archived video or image when user inputs desired date.
 
-![Simple NASA API Final](NASAAPI1.png)
+![Simple NASA API Final](nasaAPI1.png)
 
 
 

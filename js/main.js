@@ -10,11 +10,11 @@ button.addEventListener("click", ()=>{
       document.querySelector('img').src = response.url
       document.querySelector('iframe').src = response.url
       document.getElementById('title').textContent = response.title
-      document.getSelector('p').textContent = response.explanation
-      if (response.media_type === 'iframe'){
+      document.getElementById('explanation').textContent = response.explanation
+      if (response.media_type === 'video'){
         //removes class from iframe
-        document.getSelector("iFrame").classList.remove("video")
-        document.getElementById('iframe').src =response.url;
+        document.querySelector("iframe").classList.remove("video")
+        document.getElementById('video').src =response.url;
       } else{
         document.getSelector('img').src =response.url;
       }

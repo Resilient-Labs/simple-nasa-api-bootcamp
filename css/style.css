@@ -19,14 +19,16 @@ input{
 
 img{
   margin-bottom: 10px;
-  width: 400px;
+  width: 190px;
+  /* height: 164px; */
+
 }
 .video{
   display: none;
 }
 iframe{
-  width: 320px;
-  height: 480px;
+  width: 398px;
+  height: 164px;
 }
 
 .body{
@@ -45,11 +47,20 @@ button{
 h1{
   font: arial;
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   font-family: nasalization, sans-serif;
   font-style: normal;
+  margin: 0px auto;
+  padding-top: 22px;
 
-
+}
+p{
+  text-align: center;
+  color:white;
+  font-family: nasalization, sans-serif;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 

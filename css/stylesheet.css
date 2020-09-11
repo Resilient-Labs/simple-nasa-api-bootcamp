@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background-image: url("https://static.vecteezy.com/system/resources/previews/000/432/134/non_2x/vector-space-scene-with-two-planets.jpg");
+  background-image: url("https://wallpaperaccess.com/full/269177.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,25 +11,34 @@ body{
 }
 .container{
   height:100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-auto-rows: 1fr 8fr;
   text-align: center;
+}
+h1{
+  width:85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.4rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 form{
   display: flex;
   justify-content: center;
-  gap:15px;
+  gap:1rem;
   align-items: center;
-  margin-top: 2rem;
-  font-size: 25px;
+  font-size: 2rem;
 }
 input{
   text-align: center;
+  font-size: 1.5rem;
 }
 #button{
-  height:3.5rem;
-  width: 4rem;
+  height:5rem;
+  width: 5.5rem;
 }
 #button:hover{
   filter: drop-shadow(0 0 0.75rem crimson);

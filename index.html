@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NASA Media of the Day!</title>
+  </head>
+  <body>
+  <section class="container">
+    <h1>Enter a date & click the NASAS logo to get the NASA Media of that day!</h1>
+    <section>
+    <form action="index.html" method="post">
+      <label for="month">Month</label>
+      <input id="month" type="text" maxlength="2" placeholder="MM">
+      <label for="day">Day</label>
+      <input id="day" type="text" maxlength="2" placeholder="DD">
+      <label for="year">Year</label>
+      <input id="year" type="text" maxlength="4" placeholder="YYYY">
+      <img id="button" src="images/nasa.png">
+    </form>
+    <section class="media-container">
+      <img id="picture"src="" alt="">
+      <iframe src=""></iframe>
+    </section>
+  </section>
+  </section>
+
+  <script src="js/main.js"></script>
+  </body>
+</html>

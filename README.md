@@ -2,7 +2,7 @@
 
 The user can enter any date and it return the picture/video of the day from NASA
 
-**Link to project:** nasa-daily.netlify.app
+**Link to project:** https://nasa-daily.netlify.app
 
 ![alt tag](https://i.imgur.com/iKkJaYC.png)
 

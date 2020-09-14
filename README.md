@@ -1,22 +1,13 @@
 # 🚀 Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+The user can enter any date and it return the picture/video of the day from NASA
 
-### How to submit your code for review:
+**Link to project:** nasa-daily.netlify.app
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](https://i.imgur.com/iKkJaYC.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+
+I created this app to grab the users time zone, call the NASA API for said time zone and date, and then Display the Picture of the day provided by NASA with a quick description of said picture
+
+**Tech used:** HTML, CSS, JavaScript, NASA API

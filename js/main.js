@@ -13,6 +13,7 @@ function clicky() {
   let year = document.querySelector('#year').value
   video.src=''
   video.classList.add('hide')
+  img.classList.add('hide')
   img.src=''
 
   fetch(url+`${year}-${month}-${day}`)
@@ -22,6 +23,7 @@ function clicky() {
 
       console.log(data)
       if(data.media_type==="image"){
+        img.classList.remove('hide')
         img.src = data.hdurl
       } else {
         video.classList.remove('hide')

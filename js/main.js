@@ -1,5 +1,5 @@
 const apiKey = "gWL6OqPVdOHgGDnGKn7s56Pt6VbL8W7Qj3oUrDOc"
-const video = document.querySelector('video')
+const iframe = document.querySelector('iframe')
 const img = document.querySelector('img')
 
 
@@ -11,8 +11,8 @@ function clicky() {
   let month = document.querySelector('#month').value
   let day = document.querySelector('#day').value
   let year = document.querySelector('#year').value
-  video.src=''
-  video.classList.add('hide')
+  iframe.src=''
+  iframe.classList.add('hide')
   img.classList.add('hide')
   img.src=''
 
@@ -24,10 +24,10 @@ function clicky() {
       console.log(data)
       if(data.media_type==="image"){
         img.classList.remove('hide')
-        img.src = data.hdurl
-      } else {
-        video.classList.remove('hide')
-        video.src = data.hdurl
+        img.src = data.url
+      } else if(data.media_type==="video"){
+        iframe.classList.remove('hide')
+        iframe.src = data.url
       }
       document.querySelector('h3').innerText = data.explanation
       document.querySelector('h2').innerText = data.title

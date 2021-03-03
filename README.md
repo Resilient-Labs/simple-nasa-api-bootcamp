@@ -4,4 +4,4 @@
 
 ### screenshot of application
 
-![Application Screenshot](screenshotNasa.jpg)
+![Application Screenshot](screenshotNasa.png)

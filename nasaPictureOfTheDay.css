@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image:url("http://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+  align-items: center;
+  height:480px; 
+  background-position: 43% 35%;
+  background-repeat: no-repeat;
+  background-size:100%; 
+  text-align: center;
+}
+section{
+  background-color:rgb(68, 101, 149);
+  color:white;
+  width:40%;
+  height:38%;
+  margin-left:30%;
+
+}
+
+h3{
+  background-color:rgb(123, 160, 216) ;
+}
+
+h1{
+  text-decoration: underline;
+}
+
+#right{
+  position:absolute;
+  width:25%;;
+  height:25%;
+  top:10%;
+  right:4%;
+}
+#left{
+  position:absolute;
+  width:25%;;
+  height:25%;
+  top:10%;
+  left:4%;
+}

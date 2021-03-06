@@ -10,11 +10,75 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
-  display: block;
-  margin: 0 auto;
+/* font-family: 'Audiowide', cursive;
+font-family: 'Baloo Chettan 2', cursive; */
+body{
+  background: url(../img/nasaBackground.jpg);
+  background-size: cover;
 }
-
+button, select{
+  border-radius: 2rem;
+  font-family: inherit;
+  padding: .5rem 1rem;
+}
+button{
+  background: rgb(0,0,0);
+  color: rgb(242,221,180);
+}
+form{
+  margin-top: 2rem;
+  text-align: center;
+}
+h1{
+  color: rgb(242, 221,180);
+  font-family: "Audiowide", "Baloo Chettan 2", sans-serif;
+  font-size: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+html{
+  font-size: 62.5%;
+  font-family: "Baloo Chettan 2", helvetica, sans-serif;
+}
+iframe{
+  display: none;
+  height:50rem;
+  width: 100%;
+}
+img{
+  height: 40rem;
+  display: block;
+  margin: 2rem auto;
+}
+main{
+  animation: move 20s infinite;
+  background: rgba(242,221,180, .8);
+  width: 65%;
+  margin: 5% auto;
+}
+.dateSelect, .mediaTitle, .description {
+  text-align: center;
+  margin-top: 2rem;
+}
+.dateSelect{
+  font-size: 4rem;
+}
+.mediaTitle{
+  font-size: 3rem;
+  font-weight: 500;
+}
+.description{
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 2rem auto;
+  padding-bottom: 5rem;
+  width: 85%;
+}
+@keyframes move {
+  50% {
+    background: rgba(50,70,99,.8);
+  }
+}
 
 /******************************************
 /* ADDITIONAL STYLES

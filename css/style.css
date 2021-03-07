@@ -1,0 +1,65 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0px 10% 2%;
+  padding: 0px;
+}
+
+body{
+  background-image: url('https://media.giphy.com/media/3ov9k1173PdfJWRsoE/giphy.gif');
+  background-size: contain;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1{
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  /* color: rgb(144, 15, 219); */
+}
+
+.dateSection{
+  margin: 3% 33%;
+  /* border: 1px solid red; */
+}
+
+button{
+  width: 94px;
+  background-color: rgb(144, 15, 219);
+  color: white;
+}
+h2{
+  text-align: center;
+  color: white;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 20rem;
+}
+
+h3{
+  text-align: center;
+  color: white;
+  margin: 2% auto;
+
+}
+
+.description{
+  margin: 0 10%;
+  color: white;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

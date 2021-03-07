@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.logo{
+  display: block;
+  margin: 0 auto;
+  height: 15rem;
+}
+body{
+  text-align: center;
+  background: url(../img/stars-copy.png);
+  background-attachment: fixed;
+  font-size: 1.5rem;
+}
+h1{
+  color: wheat;
+  margin: 0;
+}
+h3{
+  width: 60%;
+    margin: auto;
+    color: wheat;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.NasaImage{
+  width: 60%;
+    margin: auto;
+    color: wheat;
+}
+h2{
+  color: wheat;
+}

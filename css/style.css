@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	font-size: 62.5%;
+	font-family: 'Yusei Magic', sans-serif;
+  }
+  
+  body{
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(113, 27, 130, 0.2);
+	height: 100vh;
+	padding: 0;
+	margin: 0; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	 
+  }
+
+iframe,
+iframe:active{
+  display: none;
+  border-width: 0px;
+  border: .1rem solid white;
+  
+} 
+
+.secIntroduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+}
+
+.month, .day, .year{
+  font-size: 3rem;
+}
+
+button{
+  font-size: 3rem;
+  margin-top: 2%;
+}
+
+.secResults{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+  text-align: center;
+}
+h2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+img{
+  height: 30rem;
+  width: 70%;
+  border: .1rem solid white;
+}
+
+h3{
+  font-size: 3rem;
+  color: white;
+  width: 80%;
+}

@@ -1,0 +1,37 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  color: white;
+  background-color: rgb(14, 0, 46);
+}
+section{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* the transform can help with positioning */
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 8px rgb(39, 39, 39);
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-color: rgba(7, 2, 59, 0.877);
+}

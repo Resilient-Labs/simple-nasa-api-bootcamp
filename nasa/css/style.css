@@ -1,0 +1,33 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  height: 50%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  background-image: url("https://media.giphy.com/media/aaTz9fnXkzoQ/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 570px;
+}
+h1,
+h2,
+h3 {
+  color: azure;
+  text-shadow: goldenrod;
+}

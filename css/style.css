@@ -1,0 +1,58 @@
+/******************************************
+/* CSS
+/ *******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/ *******************************************/
+
+body {
+  font-family: 'Krona One', sans-serif;
+  text-align: center;
+  margin-top: 290px;
+  font-size: 1em;
+  background-image: url("nasa-bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+  background-color: #2a2f96;
+}
+
+h1 {
+  letter-spacing: 4px;
+  color: #fbe99e;
+}
+
+input,
+button {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nasa-img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+h2 {
+  margin-top: 70px;
+}
+
+.description {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 1px;
+  line-height: 35px;
+  font-family: sans-serif;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/ *******************************************/

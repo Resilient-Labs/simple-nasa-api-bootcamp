@@ -1,0 +1,38 @@
+body{
+    background: url(nasaback.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: antiquewhite;
+}
+
+input{
+    margin-left: 552px;
+    height: 28px;
+    width: 171px;
+    font-size: 20px;
+}
+button{
+    height: 31px;
+}
+
+h2{
+    color: antiquewhite;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    margin-left: 150px;
+    
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+}

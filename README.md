@@ -1,8 +1,8 @@
 # 🚀 NASA Simple API 🛰️
 
-<img src="" width="700">
+<img src="https://github.com/DashlinS/simple-nasa-api/blob/answer/img/simplenasademo.gif" width="700">
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!]()
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://nasapic-of-the-day.netlify.app/)
 
 **Languages used:** Html, CSS, Javascript
 

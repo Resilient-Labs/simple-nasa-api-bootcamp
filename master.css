@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Nasalization Rg;
+  src: url(nasalization-rg.ttf) format('truetype');
+}
+
+html {
+  font-size: 62.5%;
+  background-image: url(nasa.png);
+  background-repeat: ;
+  background-size: cover;
+  color: white;
+  font-family: Nasalization Rg;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  border: 5px solid black;
+  height: 80vh;
+  width: 75vw;
+  margin: 5% auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 75rem;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  border-radius: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.dateBox {
+  text-align: center;
+  font-family: Nasalization Rg;
+}
+
+.month {
+  font-family: Nasalization Rg;
+  background-color: rgba(0, 0, 0, -0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+}
+
+.day {
+  font-family: Nasalization Rg;
+  background-color: rgba(0, 0, 0, -0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+}
+
+.year {
+  font-family: Nasalization Rg;
+  background-color: rgba(0, 0, 0, -0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+}
+
+.month:hover {
+  cursor: select;
+  background-color: white;
+  color: black;
+}
+
+.day:hover {
+  cursor: select;
+  background-color: white;
+  color: black;
+}
+
+.year:hover {
+  cursor: select;
+  background-color: white;
+  color: black;
+}
+
+.getButton {
+  width: 25%;
+  margin-left: 37%;
+  margin-right: 61%;
+  margin-top: 2%;
+  font-family: Nasalization Rg;
+  background-color: rgba(0, 0, 0, -0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+}
+
+.getButton:hover {
+  cursor: select;
+  background-color: white;
+  color: black;
+}
+
+img {
+  width: 50%;
+  margin: 0% 25%;
+  height: 19rem;
+  border: none;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Nasalization Rg;
+  display: flex;
+  width: 85%;
+  margin: 0% 8%;
+}

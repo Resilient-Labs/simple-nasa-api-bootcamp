@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasa Photo of the Day</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="container">
+        <img id="space-dog" src="img/spacedoggo.gif" alt="">  
+        <img id="logo" src="img/nasalogo.png" alt="">
+            <form action="index.html" method="POST">
+                <input type="date" id="date-input" placeholder="YYYY-MM-DD">
+                <button id="search-btn" type="button"><i class="fas fa-rocket"></i></button>
+            </form>
+            <h1>Archived Photo of the Day</h1>
+        <section class="results">
+            <img id="img-result" src="" alt="">
+            <div>
+                <iframe class="hide-vid" src="" frameborder="0"></iframe>
+            </div>
+        </section>
+        <section class="text-result">
+            <h2 id="title"></h2>
+            <p id="about"></p>
+        </section>
+    </section>
+  
+    <script src="js/main.js"></script>
+</body>
+</html>

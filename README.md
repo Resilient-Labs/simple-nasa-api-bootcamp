@@ -1,22 +1,22 @@
-# 🚀 Project: Simple NASA API
+# 🚀 NASA Simple API 🛰️
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+<img src="https://github.com/DashlinS/simple-nasa-api/blob/answer/img/simplenasademo.gif" width="700">
 
-### How to submit your code for review:
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://nasapic-of-the-day.netlify.app/)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Languages used:** Html, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned
+
+This is a simple API made using the picture of the day NASA API. 
+
+### My Other Projects 
+
+Check out some of the other projects I have made working with API! When date is entered, you will get the picture of the day from that date if eligible. It also gives the description for the date.
+
+* [Wise Kanye - API](https://github.com/DashlinS/api-KanyeQuotes/tree/answer)
+* [POKEDEX API](https://github.com/DashlinS/api-Pokedex/tree/answer)
+* [PurrFact API](https://github.com/DashlinS/api-purrfact/tree/answer)
+* [World News API](https://github.com/DashlinS/NewsRoundTheWorld/tree/answer)
+* [NASA Weather API - Complex](https://github.com/DashlinS/api-complex-nasa/tree/answer)
+* [Weather API](https://github.com/DashlinS/weather-api-bootcamp/tree/answer)

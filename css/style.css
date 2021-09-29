@@ -1,0 +1,62 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url("bck1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  margin: 0 auto;
+  width: 90%;
+  height: 60%;
+}
+
+img[src=""],
+img:not([src]) {
+  opacity: 0;
+}
+
+img[src="*"] {
+  opacity: 1;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Concert One", cursive;
+}
+
+div {
+  text-align: center;
+}
+
+iframe {
+  width: 60%;
+  height: 100%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

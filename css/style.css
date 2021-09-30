@@ -10,10 +10,37 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
+body{
+  text-align: center;
+  background-image: url(../img/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Strait', Arial, Helvetica, sans-serif;
+  color:white;
+}
+
+#logo{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+
+}
+#nasaPhoto{
   display: block;
   margin: 0 auto;
 }
+input{
+  width: 10em;
+  height: 2em;
+}
+button{
+  background-color: rgb(35 60 143);
+  border:none;
+  width: 10em;
+  height: 2em;
+}
+
 
 
 /******************************************

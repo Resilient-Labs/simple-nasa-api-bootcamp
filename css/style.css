@@ -13,7 +13,7 @@
 body{
   text-align: center;
   background-image: url(../img/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
-  background-size: cover;
+  background-size: auto;
   background-position: center center;
   background-attachment: fixed;
   font-family: 'Strait', Arial, Helvetica, sans-serif;
@@ -29,7 +29,11 @@ body{
 #nasaPhoto{
   display: block;
   margin: 0 auto;
+  width: 40em;
+  margin-bottom: 5em;
 }
+
+
 input{
   width: 10em;
   height: 2em;
@@ -39,6 +43,13 @@ button{
   border:none;
   width: 10em;
   height: 2em;
+}
+
+h3{
+  display: block;
+  margin: 0 auto;
+  width: 35em;
+  text-align: justify;
 }
 
 

@@ -5,6 +5,8 @@
 ### Description: Allows users to enter a date and return the picture/video of the day from NASA's API.
 
 I completed the challenge: 5
+
 I feel good about my code: 5
+
 Would like any feedback on OOP within my JS code. 
 

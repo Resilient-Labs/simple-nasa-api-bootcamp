@@ -1,0 +1,85 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+section{
+  background-image: url(..//img/planets_in_solar_system_4k.jpeg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  margin:0%;
+  height: 800px;
+}
+
+h1{
+  text-align: center;
+  color:white;
+  margin:0%;
+  padding-top: 6%;
+}
+  input #date{
+    margin-right: 25%;
+}
+button{
+   margin-right: 10%;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  color: white;
+}
+p{
+  color: white;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top:4%;
+}
+
+#date{
+  margin-top:2%;
+  margin-left: 40%;
+}
+
+#nasaImg{
+  margin-left:34%;
+  height:300px;
+}
+  
+ 
+
+
+#nasaVid{
+  margin-left:40%;
+  padding-top:3%;
+}
+
+.hide{
+  display:none;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

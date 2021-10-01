@@ -16,7 +16,7 @@
 
 Example:
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+Completed the code. It took me a while to figure out but I'm getting more confident in making it.
+It took me a while to figure out but I'm getting more confident in making it.
+Code looks good so far, I'll come back for CSS after I finish with everything else.
 ```

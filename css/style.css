@@ -1,0 +1,58 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  text-align: center;
+  background-image: url(../img/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+  background-size: auto;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Strait', Arial, Helvetica, sans-serif;
+  color:white;
+}
+
+#logo{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+
+}
+#nasaPhoto{
+  display: block;
+  margin: 0 auto;
+  width: 40em;
+  margin-bottom: 5em;
+}
+
+
+input{
+  width: 10em;
+  height: 2em;
+}
+button{
+  background-color: rgb(35 60 143);
+  border:none;
+  width: 10em;
+  height: 2em;
+}
+
+h3{
+  display: block;
+  margin: 0 auto;
+  width: 35em;
+  text-align: justify;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

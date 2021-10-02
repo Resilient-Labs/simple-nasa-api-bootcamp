@@ -3,7 +3,7 @@
 //function to get POTD from nasa's site
 function nasaPicture(){
     const date = document.querySelector('input').value
-    const url = `https://api.nasa.gov/planetary/apod?api_key=s4H6Xg8qeAimndO4wd4Ioa13XI122fzPCAPPPYc1&date=${date}` //main URL to give access.
+    const url = `https://api.nasa.gov/planetary/apod?api_key=&date=${date}` //main URL to give access.
     //The date is acting as a parameter on the API link key
 
 
@@ -32,13 +32,3 @@ document.querySelector('button').addEventListener('click', nasaPicture)
 
 
 
-/*Your API key for paxiw84821@ergowiki.com is:
-
-s4H6Xg8qeAimndO4wd4Ioa13XI122fzPCAPPPYc1
-You can start using this key to make web service requests. Simply pass your key in the URL when making a web request. Here's an example:
-
-https://api.nasa.gov/planetary/apod?api_key=s4H6Xg8qeAimndO4wd4Ioa13XI122fzPCAPPPYc1
-For additional support, please contact us. When contacting us, please tell us what API you're accessing and provide the following account details so we can quickly find you:
-
-Account Email: paxiw84821@ergowiki.com
-Account ID: ea2249b1-d82b-4bb0-904c-b39c9aef8db5*/

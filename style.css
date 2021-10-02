@@ -1,0 +1,137 @@
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+
+  body{
+      background-image: url('whiteNasa.png');
+      background-repeat: no-repeat;
+      background-position: center;
+
+  }
+
+  h1{
+    color: rgba(0, 0, 0, 0.877);
+    font-size: 60px;
+    margin-bottom:3%;
+    margin-top:10;
+    font-family: 'Lacquer';
+    font-family: 'Gemunu Libre', sans-serif;    
+    font-family: 'Tourney', cursive;
+  }
+
+  label, input, #date{
+    font-size: 20px;
+    border: none;
+    border-left:4px solid black;
+    border-right:4px solid black;
+    padding-left:6%;
+    padding-right:2%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .main{
+      text-align: center;
+      width:60%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:8%;
+      height:180px;
+  }
+
+  img{
+      width:15%;
+      padding-top:2%;
+  }
+
+  .nasaResults{
+      text-align:center;
+      width:60%;
+      margin-left: auto;
+      margin-right: auto;
+      border-top: 5px solid rgba(0, 0, 0, 0.863);
+      height:300px;
+
+  }
+
+  .nasaResults p{  
+    font-size: 18px;
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    padding:2%;
+    margin-top: 0;
+    padding-top: 1%;
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+  }
+
+  .nasaResults img{
+      width:85%;
+      margin-top:2%;
+      border: 20px solid white;
+  }
+
+  @media screen and (min-width: 501px) and (max-width: 900px){
+h1{
+    font-size: 40px;
+}
+label, input, #date{
+    font-size: 10px;
+    margin-top:4%;
+}
+body{
+    background-image: none;
+}
+.main{
+    height:145px;
+    margin-top:15%;
+}
+.nasaResults img{
+    width:100%;
+}
+.nasaResults{
+    width:85%;
+}
+  }
+
+
+  @media screen and (max-width: 500px){
+    body{
+        background-image: none;
+    }
+    label, input, #date{
+        font-size: 15px;
+        margin-top:14%;
+    }
+    .main{
+        height:200px;
+        margin-top:10%;
+    }
+    .nasaResults img{
+        width:100%;
+        margin-top:5%;
+    }
+    .nasaResults{
+        width:85%;
+        height:500px;
+    }
+    h1{
+        font-size:30px;
+    }
+    .nasaResults p{
+        padding-bottom:8%;
+    }
+  }

@@ -12,7 +12,9 @@
 /*******************************************/
 body{
   background-image: url('images/space.jpg');
+  background-repeat: no-repeat;
 }
+
 
 img{
   width: 50%;

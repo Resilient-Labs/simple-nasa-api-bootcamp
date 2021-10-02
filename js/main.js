@@ -4,7 +4,7 @@ document.querySelector("button").addEventListener("click", getPic);
 
 function getPic() {
   const choice = document.querySelector("input").value;
-  const link = `https://api.nasa.gov/planetary/apod?api_key=1Ey3nqbM2OdiXMsfb0KfWMeqxwbmamQFU7BsIAjs&date=${choice}`;
+  const link = `https://api.nasa.gov/planetary/apod?api_key=mindyourownKfWMeqxwbmamQFU7BsIAjs&date=${choice}`;
 
   fetch(link)
     .then((res) => res.json())

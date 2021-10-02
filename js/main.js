@@ -8,7 +8,7 @@ document.querySelector('button').addEventListener('click',getData)
 
 function getData(){
     let val = document.querySelector('input').value
-    const url = `https://api.nasa.gov/planetary/apod?api_key=SeLQkhhchJhFLIv4GtWfBdbq6ghjiyc7q8Gn9sVc&date=${val}`
+    const url = `https://api.nasa.gov/planetary/apod?api_key=KEY&date=${val}`
 
     fetch(url)
         .then(res => res.json())

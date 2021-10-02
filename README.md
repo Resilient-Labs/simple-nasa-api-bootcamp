@@ -8,6 +8,8 @@ Allows users to enter a date and return the picture/video of the day from NASA's
 
 
 
-# Tech Used: HTML, CSS, JS, API, JSON 
+# Tech Used:
+
+ HTML, CSS, JS, API, JSON 
 
 

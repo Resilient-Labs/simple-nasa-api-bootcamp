@@ -12,9 +12,10 @@
 /*******************************************/
 body{
   background-image: url('images/space.jpg');
-  background-repeat: no-repeat;
 }
-
+h3, h2{
+  color: white;
+}
 
 img{
   width: 50%;

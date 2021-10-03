@@ -1,0 +1,30 @@
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+body{
+  /* background-image: url(/Users/resilientcoders/Desktop/RC/week8/nasapicoftheday/css/istockphoto-1010501332-612x612.jpeg); */
+  background-repeat:no-repeat;
+  background-size: 1500px;
+  animation: scroll 70s linear infinite;
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80")
+ 
+}
+.Title{
+  text-align: center;
+  /* border: 1px solid black; */
+  color: white;
+}
+form{
+  text-align: center;
+}

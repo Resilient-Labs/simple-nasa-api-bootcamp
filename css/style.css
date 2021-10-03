@@ -1,5 +1,5 @@
 /******************************************
-/* CSS
+/* SETUP
 /*******************************************/
 
 /* Box Model Hack */
@@ -7,15 +7,98 @@
   box-sizing: border-box;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-img{
-  display: block;
-  margin: 0 auto;
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
 
+.clear {
+	clear: both;
+}
 
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
 /******************************************
-/* ADDITIONAL STYLES
+/* BASE STYLES
 /*******************************************/
+
+body {
+  color: rgba(255, 255, 255);
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-image: url(img/space-background.jpeg);
+  background-size: cover;
+  text-align: center;
+}
+h1 {
+  font-size: 3vw;
+  margin: 0.67em 0;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 2vw;
+  margin-top: 20%;
+  margin-left: 15%;
+  width: 70%;
+  font-weight: normal;
+}
+input {
+  font-size: 2vw;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid white;
+  padding: 0 2%;
+}
+input::placeholder{
+  color:rgba(255, 255, 255)
+}
+input[type='date']{
+  color: rgb(255, 255, 255)
+}
+input[type='date']:hover{
+  color: lightgrey;
+}
+button {
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  padding: .5% 1.5%;
+  margin-left: 1%;
+  font-size: 2vw;
+  border-radius: 20px;
+}
+button:hover {
+  color: lightgray;
+}
+img {
+  display: block;
+  margin: 4% auto;
+  width: 60vw;
+}
+iframe{
+  display: block;
+  text-align:center;
+  width: auto;
+  height: auto;
+  margin: 1% 0 1% 50vh;
+}
+p {
+  font-size: 2vw;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 2;
+  font-style: italic;
+}

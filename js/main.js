@@ -8,15 +8,15 @@ const vid = document.querySelector('iframe')
 function getPhoto(){
   let date = document.querySelector('input').value
 
-  const url = `https://api.nasa.gov/planetary/apod?api_key=_________________=${date}`
+  const url = `https://api.nasa.gov/planetary/apod?api_key=gVnN1cw6VDshXckiDdtY51Xn2oQMgH2KlJGaajxr&date=${date}`
   
   fetch(url)
       .then(res => res.json())
       .then(data => {
-        console.log(data)
         if (data.msg){
-          document.querySelector('h3').innerText = data.msg
-          document.querySelector('h2').innerText = ''
+          document.querySelector('h2').hidden = false
+          document.querySelector('h2').innerText = data.msg
+          document.querySelector('p').hidden = true;
           image.hidden = true
           vid.hidden  = true
         }else {
@@ -29,11 +29,12 @@ function getPhoto(){
             vid.hidden = false
             image.hidden = true
           }
-          document.querySelector('h3').innerText = data.explanation
-          document.querySelector('h2').innerText = data.title  
+          document.querySelector('p').innerText = data.explanation
+          document.querySelector('#photoName').innerText = data.title  
         }        
       })
       .catch(err => {
-          console.log(`error ${err}`)
+        document.querySelector('h2').hidden = false
+        document.querySelector('h2').innerText = 'Something went wrong. Try again'
   });
 }

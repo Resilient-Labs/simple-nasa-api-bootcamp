@@ -11,7 +11,7 @@ function getPicture() {
 
     let date = `${year}-${month}-${day}`
 
-    const url = `https://api.nasa.gov/planetary/apod?api_key=nGxHIvQJA42p2EtDsVH5gCq6RG3q320sygHw3u0c&date=${date}`
+    const url = `https://api.nasa.gov/planetary/apod?api_key=&date=${date}`
 
 
     console.log(url);

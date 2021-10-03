@@ -1,0 +1,22 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: (url(stars.mp4));
+}
+.container {
+  margin-top: 150px;
+  text-align: center;
+}
+.content {
+  border: 2px solid black;
+  height: 600px;
+  width: 50%;
+  margin-left: 400px;
+}

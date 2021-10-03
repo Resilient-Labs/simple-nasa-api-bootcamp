@@ -1,0 +1,112 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  
+  body {
+      background-image: url(https://wallpapermemory.com/uploads/700/nasa-background-full-hd-1920x1080-470854.jpg);
+      background-size: cover;
+      font-family: 'Arial', sans-serif;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+  }
+  
+  .main-container{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  input{
+      width: 100%;
+      height: 2rem;
+  }
+  
+  button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color:white;
+  }
+  
+  .results-container{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content:space-between;
+    
+  }
+  
+  .nasaTitle{
+    color: white;
+    text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+  }
+  
+  .nasaInfo{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  img{
+      max-width: 75%;
+      max-height: 50rem;
+      margin: 0 auto;
+  }
+  
+  iframe{
+      max-width: 75%;
+      max-height: 100rem;
+      margin: 0 auto;
+      border: 1px solid white;
+  }
+  
+  .hide{
+      display: none;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  

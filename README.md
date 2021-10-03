@@ -2,7 +2,7 @@
 
 ### Goal: Build a Simple Nasa API
 
-This is my simple NASA API project! Users can enter in a numerical date value by year, month, and day  (Ex: 1997-04-02) and the application will fetch the image of the day and it's description for that specific date
+This is my simple NASA API project! Users can enter in a numerical date value by year, month, and day  (Ex: 1997-04-02) and the application will fetch the image or video of the day and its description for that specific date.
 
 <img src="simplenasa.png"></img>
 
@@ -22,4 +22,4 @@ I made the basic styling and layout of the app via HTML and CSS. The main functi
 
 ### Lessons Learned:
 
-This project was my first real introduction to API's. I
+This project was my first real introduction to API's. 

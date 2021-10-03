@@ -1,6 +1,6 @@
 # 🎰 Week08 Bootcamp2021 Project: Simple NASA API Project
 
-### Goal: Build a Simple Nasa API
+### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
 
 This is my simple NASA API project! Users can enter in a numerical date value by year, month, and day  (Ex: 1997-04-02) and the application will fetch the image or video of the day and its description for that specific date.
 

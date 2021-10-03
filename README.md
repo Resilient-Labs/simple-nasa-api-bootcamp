@@ -6,7 +6,7 @@ This is my simple NASA API project! Users can enter in a numerical date value by
 
 <img src="simplenasa.png"></img>
 
-Link to live site: [https://danielmtran-simplenasa.netlify.app]
+Link to live site: [https://danielmtran-simplenasaapi.netlify.app]
 
 ### How It's Made:
 

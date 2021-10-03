@@ -1,0 +1,121 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+	background-size: cover;
+	font-family: 'Rubik', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1{
+	font-size: 3rem;
+	text-align: center;
+	color: gold;
+}
+
+.main-container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input{
+	width: 100%;
+	height: 2rem;
+}
+
+button{
+	width: 100%;
+	height: 2rem;
+}
+
+.results-container{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	padding: 5%;
+	/* border: solid white; */
+}
+
+.results-left, .results-right{
+	/* border: solid white; */
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1%;
+}
+
+.nasaTitle{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: gold;
+	text-align: center;
+}
+
+.nasaText{
+	font-size: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	color: yellow;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+iframe{
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+	/* border: solid white; */
+}
+
+.hide{
+	display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

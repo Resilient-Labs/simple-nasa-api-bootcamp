@@ -8,7 +8,7 @@ const vid = document.querySelector('iframe')
 function getPhoto(){
   let date = document.querySelector('input').value
 
-  const url = `https://api.nasa.gov/planetary/apod?api_key=gVnN1cw6VDshXckiDdtY51Xn2oQMgH2KlJGaajxr&date=${date}`
+  const url = `https://api.nasa.gov/planetary/apod?api_key=_________&date=${date}`
   
   fetch(url)
       .then(res => res.json())

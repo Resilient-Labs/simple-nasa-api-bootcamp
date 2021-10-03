@@ -12,10 +12,8 @@ function findImgUrl(data){
 }
 
 function getImage() {
-
-    
   let date = document.querySelector("input").value;
-  const url = `https://api.nasa.gov/planetary/apod?api_key=4jmpsqDyPFJsxCjgwjpeKbWBqigzT2e1PvZebEEg&date=${date}&thumbs=true`;
+  const url = `https://api.nasa.gov/planetary/apod?api_key=use_your_own_api&date=${date}&thumbs=true`;
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
@@ -28,7 +26,6 @@ function getImage() {
             document.querySelector("h2").innerText = data.title;
             document.querySelector("h3").innerText = data.explanation;}
     })
-
     .catch((err) => {
       console.log(`Error ${err}`);
     });

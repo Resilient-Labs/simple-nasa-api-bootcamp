@@ -5,17 +5,38 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+  color: hotpink;
 }
+body{
+  background-color:hotpink;
+}
+/* .holding{
+  height: 100%;
+  width: 100%;
+  background-image: url('galaxy.jpeg');
+  border: 1px black solid;
 
+} */
 /******************************************
 /* LAYOUT
 /*******************************************/
 img{
   display: block;
   margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  /* border: 1px black solid; */
 }
 
-
+.section1, .section2{
+  background-color: black;
+  padding: 2px;
+  text-align: center;
+  width: 600px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

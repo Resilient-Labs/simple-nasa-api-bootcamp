@@ -1,0 +1,71 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+<<<<<<< HEAD
+  margin: 0;
+  padding: 0;
+}
+.container video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+=======
+}
+
+body {
+  background-image: (url(stars.mp4));
+>>>>>>> 0ba3366434acb8ea9c312de8504c39b57a09c8e4
+}
+.container {
+  margin-top: 150px;
+  text-align: center;
+}
+.content {
+<<<<<<< HEAD
+  border: 5px solid black;
+  height: 100vh;
+  width: 50%;
+  margin-left: 400px;
+}
+.content h1 {
+  border: 2px solid black;
+  background-color: black;
+  height: 100px;
+  color: white;
+  font-weight: 900;
+}
+.content p {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+}
+.content label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.content button {
+  padding: 7px;
+  width: 20%;
+  background-color: black;
+  color: white;
+}
+.img {
+  height: 550px;
+  width: 100%;
+}
+=======
+  border: 2px solid black;
+  height: 600px;
+  width: 50%;
+  margin-left: 400px;
+}
+>>>>>>> 0ba3366434acb8ea9c312de8504c39b57a09c8e4

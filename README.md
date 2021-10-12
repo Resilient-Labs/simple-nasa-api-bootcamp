@@ -14,6 +14,8 @@ A simple, white and black site where you can choose a day and get an picture fro
 
 **Tech used:** HTML5, CSS3, JavaScript ES6+
 
+I created an app that takes in a date, and displays the picture of that day, their name and the description all at once. I used the NASA API in order to create this.
+
 ## Optimizations:
 
 * Add styling to the site

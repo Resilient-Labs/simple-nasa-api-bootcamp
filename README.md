@@ -12,7 +12,7 @@ A simple, white and black site where you can choose a day and get an picture fro
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript
+**Tech used:** HTML5, CSS3, JavaScript ES6+
 
 ## Optimizations:
 

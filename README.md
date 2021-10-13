@@ -1,22 +1,25 @@
-# 🚀 Project: Simple NASA API
+# 🎰 Week08 Bootcamp2021 Project: Simple NASA API Project
 
 ### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
 
-### How to submit your code for review:
+This is my simple NASA API project! Users can enter in a numerical date value by year, month, and day  (Ex: 1997-04-02) and the application will fetch the image or video of the day and its description for that specific date.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="simplenasa.png"></img>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Link to live site: [https://danielmtran-simplenasaapi.netlify.app]
+
+### How It's Made:
+
+Tech used: HTML, CSS, JAVASCRIPT
+
+I made the basic styling and layout of the app via HTML and CSS. The main functionality of the app was made using Javascript.
+
+
+### Optimizations:
+
+
+
+
+### Lessons Learned:
+
+This project was my first real introduction to API's. 

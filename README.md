@@ -11,4 +11,4 @@ Enter a date to get NASA's picture/video of the day and its corresponding inform
 The application uses a single fetch API to source the image/video and its information (name and description of the image/video) from NASA's APOD API. Then using the property innerHTML, all of the data is displayed on the DOM.
 
 ## What I Learned
-The way data is stored in the API should be strictly reflected in your code as well. For example, in the NASA API the date was stored in YYYY-MM-DD format, so the user's input shoud also be written in that format or else it won't be as easy to fetch the data.
+The way data is stored in the API should be strictly reflected in your code as well. For example, in the NASA API the date was stored in YYYY-MM-DD format, so the user's input should also be written in that format or else the data will not fetch properly.

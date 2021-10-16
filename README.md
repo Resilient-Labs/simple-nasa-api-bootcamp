@@ -1,22 +1,14 @@
 # 🚀 Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+Enter a date to get NASA's picture/video of the day and its corresponding information back.
 
-### How to submit your code for review:
+**Live Demo:** https://nasa-by-date-jenna-nguyen.netlify.app/ <i>(for display only, still requires an API key for usage)</i>
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img width="939" alt="Simple NASA API" src="https://user-images.githubusercontent.com/88993361/135936186-d317859f-2ffd-4104-94fb-7610b24e2c08.png">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made
+
+The application uses a single fetch API to source the image/video and its information (name and description of the image/video) from NASA's APOD API. Then using the property innerHTML, all of the data is displayed on the DOM.
+
+## What I Learned
+The way data is stored in the API should be strictly reflected in your code as well. For example, in the NASA API the date was stored in YYYY-MM-DD format, so the user's input should also be written in that format or else the data will not fetch properly.

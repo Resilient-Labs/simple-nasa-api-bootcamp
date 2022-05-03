@@ -15,4 +15,7 @@ function getPhoto(){
         document.querySelector('h3').innerText = data.explanation
         document.querySelector('h2').innerText = data.title
     })
+    .catch(err => {
+        console.log(`error ${err}`)
+    })
 }

@@ -6,7 +6,7 @@ document.querySelector('button').addEventListener('click', getDate)
 
 function getDate() {
     let day = document.querySelector('input').value
-    
+
     const url = `https://api.nasa.gov/planetary/apod?api_key=a2LI4tojUOwvBM6BhEWa3cx6ZzIeLzkfdTuwV5FL&date=${day}`
 
     const name = document.querySelector('h2')
@@ -15,7 +15,7 @@ function getDate() {
     
     
     fetch(url)
-    .then(res => res.json()) // parse response as JSON
+    .then(res => res.json())
     .then(data => {
         console.log(data.hdurl)
         name.innerText = data.title

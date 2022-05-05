@@ -1,7 +1,6 @@
 # 🚀 Project: Simple NASA API
 
-### Goal: 
-Enable the user to enter a date and return the picture/video of the day from NASA's API
+### Goal: Enable the user to enter a date and return the picture/video of the day from NASA's API
 
 ![Screen Shot 2022-05-05 at 1 27 15 AM](https://user-images.githubusercontent.com/88361309/166867614-68883525-acd0-46d2-9790-e0ad4dec7cd6.png)
 

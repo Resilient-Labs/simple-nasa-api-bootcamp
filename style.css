@@ -1,3 +1,35 @@
 * {
-
+box-sizing: border-box;
 }
+
+body {
+  background-image: url("assets/space1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin-left: 100px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  width: 30%;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+h4 {
+  color: lightgray;
+}
+
+/* h2 {
+  border: 1px solid darkblue;
+} */

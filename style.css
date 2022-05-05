@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+body {
+    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/background_01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(123, 13, 123);
+    padding: 32px;
+}
+
+p {
+    color: rgb(243, 243, 1);
+    text-align: center;
+    padding: 8px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    margin-top: 8px;
+    text-align: center;
+    padding: 8px;
+    color: rgb(185, 225, 28);
+    background-color: rgb(101, 3, 3);
+}
+
+div {
+    padding: 8px;
+}
+
+button {
+    padding: 16px;
+    color: rgb(185, 225, 28);
+    background-color: rgb(101, 3, 3);
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    padding: 32px;
+    width: 75%;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    body {
+        background-color: black;
+        background-size: auto;
+    }
+
+  }
+
+  @media only screen and (max-device-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+      * {
+        font-size: 2rem;
+      }
+    body {
+        background-image: none;
+        background-color: black;
+        margin-top: 500px;
+    }
+
+    }
+  

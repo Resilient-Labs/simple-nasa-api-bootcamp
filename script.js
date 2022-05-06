@@ -7,7 +7,12 @@ const getDate = (e) => {
     .then(res => res.json()) // parse response as JSON
     .then(data => {
         console.log(data.hdurl)
-        document.querySelector('img').src = data.hdurl
+        if (data.media_type === 'image') {
+            return document.querySelector('img').src = data.hdurl
+        } else {
+            (data.media_type === 'video')
+            return document.querySelector('iframe').src = data.url
+        }
     })
     .catch(err => {
         console.log(`error ${err}`)

@@ -56,7 +56,13 @@ img {
     margin-top: 16px;
     padding: 32px;
     width: 75%;
-    border: 1px solid white;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    padding: 32px;
 }
 
 @media screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {

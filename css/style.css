@@ -1,0 +1,33 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  background-size: 200px;
+}
+
+section{
+  text-align: center;
+}
+
+body{
+  background: url(../timeloop.gif);
+  background-size: cover;
+  color: white;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

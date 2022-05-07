@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url('purplegif.jpeg');
+    background-size: cover;
+}
+h1,h1+section,section+section{
+    text-align: center;
+}
+h1,h2,h3{
+    color:rgb(0, 238, 255);
+}
+button,input{
+    background-color: black;
+    color: rgb(0, 238, 255);
+    font-weight: 700;
+}

@@ -1,22 +1,16 @@
 # 🚀 Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+### Goal: Enable the user to enter a date and return the picture/video of the day from NASA's API
 
-### How to submit your code for review:
+![Screen Shot 2022-05-05 at 1 27 15 AM](https://user-images.githubusercontent.com/88361309/166867614-68883525-acd0-46d2-9790-e0ad4dec7cd6.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Screen Shot 2022-05-05 at 1 28 09 AM](https://user-images.githubusercontent.com/88361309/166867679-2973911c-00b0-45b0-b798-81fba917c8e6.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+### How It's Made:
+I used HTML and CSS to give the website structure and style. I also used the framework flexbox for positioning the elements on the page.
+
+### Functionality: 
+For functionality I used JavaScript and integrated NASA's photo/video of the day so that when the user enters a date the photo or video of the day will appear on the page.
+

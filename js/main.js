@@ -10,17 +10,27 @@ function getDate() {
 
     const name = document.querySelector('h2')
     const image = document.querySelector('img')
+    const frame = document.querySelector('iframe')
     const desc = document.querySelector('h3')
     
     
     fetch(url)
     .then(res => res.json())
     .then(data => {
-        console.log(data.hdurl)
+        console.log(data)
         name.innerText = data.title
-        image.src = data.hdurl
         desc.innerText = data.explanation
-
+        if ( data.media_type === "image") {
+            image.style.display = 'block'
+            image.src = data.hdurl
+            frame.style.display = 'none'
+        } else if ( data.media_type === "video") {
+            frame.style.display = 'block'
+            frame.src = data.url
+            image.style.display = 'none'
+        } else {
+            alert('Media Not Supported')
+        }
     })
     .catch(err => {
         console.log(`error ${err}`)

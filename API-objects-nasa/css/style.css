@@ -1,0 +1,50 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 5px ;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+div{
+  text-align: center;
+  width:70%;
+  margin-left: 15%;
+}
+
+input{
+  margin: 20px;
+}
+
+/* p{
+  text-align: left;
+} */
+
+#howToUse{
+  font-size: 1em;
+}
+
+p{
+  margin-top:15px;
+}
+/* 
+iframe{
+  display: none;
+} */
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

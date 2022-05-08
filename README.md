@@ -3,7 +3,7 @@
 This app allows the user to see the current and past piture of the day ('POTD') from Nasa's very own api. 
 
 **Link to project:** https://cydvilla.github.io/simple-nasa-api-bootcamp/
-![alt](simNasa.gif)
+![alt](simpNasa.gif)
 
 ## How It's Made:
 

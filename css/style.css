@@ -10,15 +10,30 @@
 /*****************************************
 /* LAYOUT
 /*******************************************/
+body {
+  background: black;
+}
 img{
   display: block;
-  margin: 0 auto;
   width: 100%;
 }
 
 iframe {
   display: none;
   width: 50%;
+}
+
+main {
+  margin: 0 10%;
+  width: 80%;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+h3{
+  line-height: 2rem;
 }
 
 

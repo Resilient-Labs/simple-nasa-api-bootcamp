@@ -1,0 +1,24 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+  background-color: black;
+}
+h1, h2, h3, div{
+  align-self: center;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.text-glow{
+  font-family: satisfy, Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

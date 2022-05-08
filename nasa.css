@@ -1,0 +1,34 @@
+body{
+    background-image: url(./images/giphy.gif);
+   
+    background-size: 150%;
+   
+}
+h1{
+    text-align: center;
+    color: orange;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: aquamarine;
+}
+h3{
+    color: white;
+    margin-top: -130px;
+}
+button{
+    height: 34px;
+    width: 10%;
+}
+input{
+    margin-left: 450px;
+    width: 20%;
+    height: 30px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}

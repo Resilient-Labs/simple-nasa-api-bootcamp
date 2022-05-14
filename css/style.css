@@ -1,4 +1,4 @@
-/******************************************
+https://spacedateapi.netlify.app//******************************************
 /* CSS
 /*******************************************/
 
@@ -11,14 +11,27 @@
 /* LAYOUT
 /*******************************************/
 img{
-  width: 400px;
-  height: 400px;
+  /* width: 400px;
+  height: 400px; */
   margin: 0 auto;
   
 }
 body{
   background-color: rgb(109, 98, 52);
   text-align: center;
+  background-image: url(back.gif);
+  background-size: cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+}
+h3{
+  font-size: 1.5em;
+}
+h1{
+  font-size: 2em;
+}
+.one{
+  width: ;
 }
 
 

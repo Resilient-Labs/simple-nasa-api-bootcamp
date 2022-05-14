@@ -1,0 +1,48 @@
+Body{
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    color: white;
+}
+header{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+#container{
+    
+    border: solid white 5px ;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+ #pic{
+     width: 400px;
+     height: 500px;
+ }
+
+#aboutPic{
+    width: 400px;
+    height: 400px;
+}
+button{
+    margin-left: 500px;
+    margin-top: 14px;
+    width: 98px;
+    height: 20px;
+    border: solid white 2px;
+    background: black;
+    color: white;
+}
+

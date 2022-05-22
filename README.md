@@ -2,7 +2,7 @@
 
 This is a simple NASA API where the user is able to enter a date and return the picture of the day from NASA's API.
 
-[Screen Shot 2022-05-22 at 1 29 32 PM](https://user-images.githubusercontent.com/102008028/169708015-14c7f1d9-8bdc-4147-9417-3b962d531b12.png)
+![Screen Shot 2022-05-22 at 1 29 32 PM](https://user-images.githubusercontent.com/102008028/169708015-14c7f1d9-8bdc-4147-9417-3b962d531b12.png)
 
 ## Languages Used 
 

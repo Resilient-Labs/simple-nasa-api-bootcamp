@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url('./space.gif');
+  animation-name: list;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  /* height: 100vh; */
+  padding: 0;
+  margin: 0;
+  background-attachment: scroll;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+button {
+  background: darkgray;
+  cursor: pointer;
+}
+.one {
+  height: 350px;
+}
+img {
+  height: 50vh;
+  width: 100%;
+}

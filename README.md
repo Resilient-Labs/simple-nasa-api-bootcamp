@@ -1,22 +1,20 @@
-# 🚀 Project: Simple NASA API
+# Nasa Picture of the Day
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+This app allows the user to see the current and past piture of the day ('POTD') from Nasa's very own api. 
 
-### How to submit your code for review:
+**Link to project:** https://cydvilla.github.io/simple-nasa-api-bootcamp/
+![alt](simpNasa.gif)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+Utilziing JavaScript, this project requires the user to input a date, which is then queried by the API to return an image (or video) of the day associated with that date.
+<!-- ## Optimizations
+*(optional)*
+
+You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews! -->
+
+## Lessons Learned:
+
+I almost missed that videos were included in the POTD, I would have had undefined data otherwise had I not added code to account for it. 

@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(wallpaper3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(67, 63, 65);
+}
+
+h2{
+    color: rgb(67, 63, 65);
+    font-size: 30px
+}
+
+h3 {
+    width: 60%;
+    color: rgb(67, 63, 65);
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+input {
+    height: 30px;
+    width: 100px;
+}

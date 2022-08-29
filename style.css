@@ -1,0 +1,54 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+.container {
+  margin-top: 50px;
+  text-align: center;
+  height: 100vh;
+}
+.content {
+  width: 50%;
+  margin-left: 400px;
+}
+.content h1 {
+  height: 100px;
+  color: white;
+  font-weight: 900;
+}
+.content p {
+  margin-bottom: 80px;
+  color: white;
+  font-weight: 900;
+}
+.content label {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.content button {
+  padding: 5px;
+  width: 18%;
+  background-color: black;
+  color: white;
+  margin-bottom: 50px;
+}
+.img {
+  height: 555px;
+  width: 100%;
+}

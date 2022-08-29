@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 62.5%;
+} */
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#logo {
+  width: 20%;
+}
+
+body {
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  letter-spacing: .1rem;
+  line-height: 1.5rem;
+  /* background: #BB8AF9; */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+}
+
+#description-section {
+  text-align: left;
+  margin: auto;
+  width: 80%;
+  margin-top: -7rem;
+  margin-bottom: 3rem;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

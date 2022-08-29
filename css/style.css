@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  height: 200px;
+}
+
+body{
+  color: white;
+  background-image: url("bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+button{
+  width: 15%;
+  height: 30px;
+  font-size: larger;
+  font-weight: 200;
+  background: rgba(255, 0, 247, 0.762);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover{
+  background: rgb(117, 145, 255);
+  color: rgb(255, 226, 230);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

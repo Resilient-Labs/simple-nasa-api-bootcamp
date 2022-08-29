@@ -1,22 +1,15 @@
-# 🚀 Project: Simple NASA API
+# Simple NASA API 🚀
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+<a href="https://kellychhe-simple-nasa-api.netlify.app/">This is a website</a> using NASA's photo of the day API that prompts the user to put in a date (before today) to see NASA's photo/video of that day with title, credit, and description.
 
-### How to submit your code for review:
+<img width="1439" alt="Screen Shot 2022-06-03 at 9 43 46 AM" src="https://user-images.githubusercontent.com/102538779/172064413-1080fa12-00a3-4976-8adc-05cb6bac5109.png">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Languages Used 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This was created using HTML5, CSS3, and JavaScript.
+
+This is my first go at using an API to build a website. I used the date that the user enters as a query parameter. I selected heading tags, paragraph tag and the img/iframe tags to display the title, description, and image on the DOM. Space is awesome so that made this project fun!
+
+## Lessons Learned
+
+With this project I was able to learn the difference between using image and iframe tags. I'm glad this was the first API I worked with because the documentation was easy to understand and the API itself did not too much information to sort through. All in all a good experience :)

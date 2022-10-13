@@ -1,0 +1,111 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+
+section{
+  display: flex;
+}
+
+#topSection{
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.inputAndLabel{
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+span{
+  font-size: 2rem;
+  color: red;
+  font-weight: 600;
+}
+
+#bottomSection{
+  padding-top: 2rem;
+  justify-content: space-between;
+}
+
+#right{
+  flex-basis: 35%;
+  padding-right: 8rem;
+}
+
+#left{
+  flex-basis: 60%;
+  padding-left: 8rem;
+}
+
+img{
+  width: 100%;
+  object-fit: contain;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 3rem;
+  margin: 4rem 0;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 0px;
+}
+
+p{
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: left;
+  margin-top: 0px;
+}
+
+input{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    /* width: 20%; */
+}
+
+label{
+  font-size: 2rem;
+  margin-bottom: .75rem;
+  font-weight: 600;
+}
+
+button{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  background: #0B3D91;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: .5rem 2rem;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

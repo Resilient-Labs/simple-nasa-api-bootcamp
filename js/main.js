@@ -26,6 +26,6 @@ function getDate() {
      document.querySelector('h3').innerText = data.explanation
 })
 .catch(err => { 
-    console.log(`error ${err}`)
+    console.log(`error ${err}`) 
 })
 }

@@ -1,6 +1,4 @@
-/* api key:  
- https://api.nasa.gov/planetary/apod?api_key=Mjy1bxuNx42ZPiJ3qncUBIGu1JouiLwPkbFULRCU
-*/
+
 
 //listener
 document.querySelector("#submit").addEventListener("click", userInput);
@@ -11,7 +9,7 @@ video.style.display = "none"
 let title = document.querySelector(".nasa-title")
 let dateMade = document.querySelector(".nasa-date")
 
-//gets date and 
+//gets date
 function userInput(event) {
     //stops refreshing on submit, Shout on Leon
     event.preventDefault()
@@ -19,7 +17,7 @@ function userInput(event) {
     date = document.getElementById("date-info").value
     console.log(date)
 
-    let key = "Mjy1bxuNx42ZPiJ3qncUBIGu1JouiLwPkbFULRCU"
+    let key = config.MY_API_TOKEN 
     
     //fetch api
     fetch(`https://api.nasa.gov/planetary/apod?api_key=${key}&date=${date}`, {

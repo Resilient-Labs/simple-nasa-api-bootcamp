@@ -6,6 +6,8 @@
 document.querySelector("#submit").addEventListener("click", userInput);
 //
 let image = document.querySelector(".nasa-image")
+let video = document.querySelector(".nasa-video")
+video.style.display = "none"
 let title = document.querySelector(".nasa-title")
 let dateMade = document.querySelector(".nasa-date")
 
@@ -20,7 +22,12 @@ function userInput(event) {
     let key = "Mjy1bxuNx42ZPiJ3qncUBIGu1JouiLwPkbFULRCU"
     
     //fetch api
-    fetch(`https://api.nasa.gov/planetary/apod?api_key=${key}&date=${date}`)
+    fetch(`https://api.nasa.gov/planetary/apod?api_key=${key}&date=${date}`, {
+        method: 'GET', headers:{
+                'X-Frame-Options': "ALLOW-FROM=url"
+            }
+
+    })
     .then((response) => {
         if (response.ok) {
             return response.json();
@@ -32,7 +39,19 @@ function userInput(event) {
         console.log(data);
         title.innerHTML = data.title
         dateMade.innerHTML = data.date
-        image.src = data.url
+        // let newLink = data.url.replace('?rel=0', '')
+        if (data.media_type === "image") {
+      
+            image.src = data.url
+            video.style.display = "none"
+        }
+        else if (data.media_type === "video") {
+            video.style.display = "block"
+            video.src = data.url
+            image.style.display = "none"
+         
+        }
+       
         
 
         

@@ -1,0 +1,50 @@
+::-webkit-inner-spin-button { 
+    display:none;
+  }
+  ::-webkit-calendar-picker-indicator { background-color:black}
+  input[type=date]{
+    font-size:25px;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  #meeting {
+    background-image: url(starsshining.gif)
+  }
+  ::-webkit-datetime-edit-text { color:white}
+  ::-webkit-datetime-edit-month-field { color:white }
+  ::-webkit-datetime-edit-day-field { color: white; }
+  ::-webkit-datetime-edit-year-field { color:white; }
+  ::-webkit-calendar-picker-indicator{ 
+    background-image: url(http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Calendar-icon.png);
+        background-position:center;
+         background-size:20px 20px;
+         background-repeat:no-repeat;
+        color:rgba(204,204,204,0);
+  }
+
+
+    .pickImage {
+      background-color:#ffffff;
+      border-radius:28px;
+      border:1px solid #7596eb;
+      display:inline-block;
+      cursor:pointer;
+      color:black;
+      font-family:Arial;
+      font-size:17px;
+      padding:16px 31px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #7b84eb;
+    }
+    .pickImage:hover {
+      background-color:#5797df;
+    }
+    .pickImage:active {
+      position:relative;
+      top:1px;
+    }
+    
+  

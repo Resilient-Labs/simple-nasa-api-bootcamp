@@ -4,7 +4,7 @@
 document.querySelector('button').addEventListener('click', getPicture)
 
 //separate query parameters by ampersand
-https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}
+//https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}
 
 function getPicture(){
     let day = document.querySelector('input').value

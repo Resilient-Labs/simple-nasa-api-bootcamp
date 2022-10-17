@@ -1,22 +1,10 @@
-# 🚀 Project: Simple NASA API
+# Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+An application that when the inputs of a month, date, and year, the NASA video or image of the day will output to the DOM. 
+Check it out here: https://soft-piroshki-fbc59a.netlify.app/
+![image](https://user-images.githubusercontent.com/112406976/196282487-f1ccfef2-afd6-4803-bc7a-b1f8e8493ec1.png)
+# Tech Used: HTML, CSS, Javascript 
+This project took HTML, CSS, and Javascript to get the desired result. Used an API to extract data
+and display it back on the DOM.
+# Lessons Learned
+This project gave me a foothold on how to get mutiliple media formats on the DOM from an API. 

@@ -2,6 +2,8 @@
 
 ### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
 
+Link to project: https://nasapicturevideo.netlify.app/
+
 ![Screen Shot 2022-10-13 at 12 12 05 AM](https://user-images.githubusercontent.com/91163017/195500874-df641ffc-7ea2-469d-bf32-842b06c36405.png)
 
 

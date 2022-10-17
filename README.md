@@ -1,22 +1,6 @@
 # 🚀 Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+This project uses data from the NASA API to return photos taken by NASA for any date, with a description of the photo.
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example: 
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img width="1416" alt="Screen Shot 2022-10-17 at 15 04 05" src="https://user-images.githubusercontent.com/100469351/196261040-33162854-9c30-4ccb-924c-476908c7aab5.png">

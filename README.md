@@ -2,7 +2,7 @@
 
 ![Simple Nasa Api](image.png)
 ## Link to project 
-<a href="nasaapi1.netlify.app" rel="nofollow">Visit Site</a>
+<a href="https://nasaapi1.netlify.app" rel="nofollow">Visit Site</a>
 
 ## This uses a Nasa API that shows image OTD user selects 
 

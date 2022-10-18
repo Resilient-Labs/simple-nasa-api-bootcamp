@@ -17,6 +17,9 @@
 	clear: both;
 }
 
+body {
+  background-color: bisque;
+}
 
 img {
   width: 50%;
@@ -33,7 +36,6 @@ section {
 }
 
 div {
-  border: 1px solid black;
   width: 80%;
   height: auto;
   margin: auto;

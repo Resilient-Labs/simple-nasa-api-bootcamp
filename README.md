@@ -5,7 +5,8 @@
 
 **Link to project:** https://api-nasasimple.netlify.app/
 
-<img width="1389" alt="Screen Shot 2022-10-16 at 7 22 41 PM" src="https://user-images.githubusercontent.com/113194307/196063661-7f1ffbd7-3ad6-48ab-b433-d5a99202cb7b.png">
+<img width="600" alt="Screen Shot 2022-10-21 at 12 59 35 AM" src="https://user-images.githubusercontent.com/113194307/197115823-97803bf6-9f03-4a1b-a9f8-3cd2e63047f9.png">
+
 
 
 ## How It's Made:

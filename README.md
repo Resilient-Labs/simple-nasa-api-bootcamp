@@ -11,4 +11,4 @@ HTML, CSS, JavaScript
 
 
 ## Lessons Learned:
-The design and layout was extremely challenging. I feel much experienced in using flexbox in CSS after this.
+The design and layout was extremely challenging. I feel much experienced in using flexbox in CSS after this. 

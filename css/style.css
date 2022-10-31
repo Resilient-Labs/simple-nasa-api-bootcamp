@@ -15,6 +15,20 @@ img{
   margin: 0 auto;
 }
 
+input, button {
+  border-radius: 5px;
+}
+
+body{
+  margin-top: 63px;
+  text-align: center;
+  font-weight: bolder;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+    
+}
 
 /******************************************
 /* ADDITIONAL STYLES

@@ -1,22 +1,20 @@
 # 🚀 Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![simple_nasa_api](https://user-images.githubusercontent.com/23227549/200632454-eec24ae4-7427-43cc-97fe-b616c43b853c.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Link to project: https://void-simple-nasa-api.netlify.app/
+
+Tech used: HTML, CSS, JavaScript, Nasa Api!
+
+
+THis was a fun site to make. I was able to utlize an api to recieve media other than text. And I have a personal interest in astronomy this being able to work with astronomical data was nice. 
+
+
+Optimizations:
+
+It was fun to utilize the date time intput and as this allows users to have a more streamline expereince when compared to habving to type in the date itself. 
+However this lead to me realizing that dates older than july 16th 1995 will not return valid inputs. As the date time allows this for the user I needed to put in 
+instructions to handle that edge case. It will also retuned undefine if the user trys to put in future dates.
+

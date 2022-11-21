@@ -1,0 +1,20 @@
+{
+  "name": "simple-nasa-api-bootcamp",
+  "version": "1.0.0",
+  "description": "### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElvinGarciaDev/simple-nasa-api-bootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElvinGarciaDev/simple-nasa-api-bootcamp/issues"
+  },
+  "homepage": "https://github.com/ElvinGarciaDev/simple-nasa-api-bootcamp#readme"
+}

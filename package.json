@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElvinGarciaDev/simple-nasa-api-bootcamp.git"
+    "url": "git+https://github.com/ElvinGarciaDev/simple-nasa-api-bootcamp.git",
+    "start": "node main.js"
   },
   "keywords": [],
   "author": "",

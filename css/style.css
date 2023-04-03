@@ -10,11 +10,30 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inconsolata', monospace;
+  background-color: rgba(67, 67, 67, 0.506);
+}
 img{
   display: block;
   margin: 0 auto;
 }
-
+h3{
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.411);
+}
+main{
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+footer{
+  height: 200px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES

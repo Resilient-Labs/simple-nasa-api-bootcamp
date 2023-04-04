@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: rgb(249, 127, 127);
+}
+
+body {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/STS41B-35-1613_-_Bruce_McCandless_II_during_EVA_%28Retouched%29.jpg/1920px-STS41B-35-1613_-_Bruce_McCandless_II_during_EVA_%28Retouched%29.jpg');
+
+  background-size: cover;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(22, 89, 181, 0.8);
+  width: 50%;
+  border-radius: 30px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+#result {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+#result img {
+  width: 50%;
+  height: auto;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(22, 89, 181, 0.8);
+    width: 80%;
+    border-radius: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(22, 89, 181, 0.8);
+    width: 90%;
+    border-radius: 30px;
+  }
+}

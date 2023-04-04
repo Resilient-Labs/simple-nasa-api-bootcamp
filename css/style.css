@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:black;
+  color: whitesmoke;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img
+{
+  display: flex;
+  width: 50%;
+}
+
+body
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+h2
+{
+  width: 100%;
+}
+
+h3
+{
+  width: 45%;
+    padding: 0px 25px 0px 25px;
+    margin: 0px 10px 0px 10px;
+}
+
+
+.hidden
+{
+  display: none;
+}
+
+.hiddenFlexImg
+{
+  display: none;
+}
+
+.box1
+{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border-bottom: white solid .05em;
+}
+
+.box2
+{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 65%;
+    border-bottom: white solid .05em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

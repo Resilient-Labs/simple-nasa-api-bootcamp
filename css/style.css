@@ -2,15 +2,16 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 body{
     width: 100%;
-    height: 30rem;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("/assets/NoD_GridBG_Dark.mp4");
+    background-image: linear-gradient(30deg, black, purple);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -26,6 +27,12 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+button{
+    color: black;
+}
+input{
+    color: black;
 }
 img{
     width: 50%;

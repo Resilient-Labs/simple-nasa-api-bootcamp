@@ -16,8 +16,9 @@
 :root {
   font-size: 62.5%;
 }
-/* .hide{
-  display: none; */
+.hide{
+  display: none;
+}
 
 .container {
   padding: 40px;

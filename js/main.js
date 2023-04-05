@@ -1,23 +1,33 @@
 //The user will enter a date. Use that date to get 
 // the NASA picture of the day from that date! https://api.nasa.gov/
-
-document.querySelector('button').addEventListener('click', whatHappenedThatDay )
+console.log("hello")
+document.querySelector('button').addEventListener('click', whatHappenedThatDay)
 function whatHappenedThatDay() {
   let whatDay = document.querySelector('input').value
-const url = (`https://api.nasa.gov/planetary/apod?api_key=bGCyq1wm8NKvZ45QwgeJR95DstfhSWscgrOKuMbg&date=${whatDay}`)
+  const url = (`https://api.nasa.gov/planetary/apod?api_key=bGCyq1wm8NKvZ45QwgeJR95DstfhSWscgrOKuMbg&date=${whatDay}`)
+console.log('hello')
+  fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      console.log(data)
+      document.querySelector('h2').innerText = data.title
 
-fetch(url)
-.then(res => res.json())
-.then(data => {
-  console.log(data)
-  document.querySelector('h2').innerText = data.title
-  document.querySelector('span').innerText = data.date
-  document.querySelector('img').src = data.url
-  document.querySelector('h3').innerText = data.explanation
-})
-.catch(err => {
-  console.log(`error ${err}`)
-});
+      if (data.media_type === 'image') {
+        document.querySelector('img').src = data.url
+        image.classList.remove('hide')
+        iframe.classList.add('hide')
+      } else if (data.media_type === 'video') {
+        iframe.classList.remove('hide')
+        document.querySelector('iframe').src = data.url
+        image.classList.add('hide')
+      }
+      document.querySelector('span').innerText = data.date
+      document.querySelector('h3').innerText = data.explanation
+    })
+    .catch(err => {
+      console.log(`error ${err}`)
+    });
 }
 
 // console.dir -> seeing objects
+console.log('connection or not')

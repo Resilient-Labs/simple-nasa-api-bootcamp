@@ -19,4 +19,4 @@ function getImage(){
   .catch(err => {
       console.log(`error ${err}`)
 });
-}
+} 

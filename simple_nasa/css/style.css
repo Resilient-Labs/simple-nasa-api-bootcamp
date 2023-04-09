@@ -1,0 +1,86 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  margin: 0 auto;
+  height: 300px;
+  float: right;
+  padding: 0 15px 10px 20px;
+}
+
+html {
+  text-align: center;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+button,
+h2 {
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html {
+  background-image: url(https://i.pinimg.com/originals/65/7d/dd/657ddd7b531accb661ffd664b01bfd9b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(215, 212, 212);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 75px;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 75px;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+/******************************************
+/* Media Queries
+/*******************************************/
+
+@media (max-width: 735px) {
+  img {
+    float: none;
+  }
+
+  h3 {
+    padding-bottom: 180px;
+  }
+}

@@ -1,0 +1,76 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+  img {
+    display: flex;
+    height: 50%;
+    width: 89%;
+    margin: 1% 4% 3% 5%;
+}
+
+p{
+  color: white;
+  font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0% 0% 3% 14%;
+text-shadow: 2px 2px 4px rgba(25, 25, 23, 0.599);
+}
+
+
+h2{color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 1% 1% 4% 35%;
+text-shadow: 2px 2px 4px rgba(25, 25, 23, 0.599);
+}
+
+h3{color: white;
+  text-shadow: 2px 2px 4px rgba(25, 25, 23, 0.599);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 3% 1% 0% 40%;
+  text-shadow: 2px 2px 4px rgba(25, 25, 23, 0.599);
+}
+
+body{background-color: rgb(38, 66, 95);}
+
+div {
+  
+  margin: 1% 2% 0% 29%;
+  align-content: center;
+  flex-direction: column;
+  margin: 3% 2% 0% 37%;
+  
+}
+.bigbox{
+  
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.nice {
+  
+  height: 50%;
+  width: 50%;
+  flex-direction: row;
+  display: flex;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

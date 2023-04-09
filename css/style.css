@@ -1,0 +1,32 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box; 
+  font-family: 'Schibsted Grotesk', sans-serif; 
+  
+  
+}  
+
+body {
+  text-align: center; 
+  background-image: url(../images/galaxy.png); 
+  background-size: cover; 
+	background-repeat: no-repeat; 
+  color:white; 
+}
+
+button, input {
+  border-radius: 5px;
+} 
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

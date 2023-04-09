@@ -1,0 +1,66 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+    margin-bottom:1%;
+  }
+  iframe{
+    margin-left:37%;
+    margin-bottom:3%;
+    width:500px;
+    height:300px;
+  }
+  h1,h2{
+    width:40%;
+    margin-left: 29%;
+  }
+  h2{
+    width:20%;
+    margin-left: 40%;
+  }
+  h1,h2,h3{
+    text-align: center;
+    color: white;
+    background-color: rgba(3,3,3,.6);
+    padding:5px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  
+  
+  input{
+    margin-left: 38%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+  }
+  input,button{
+    font-size: 30px;
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  .hidden{
+    display:none;
+  }
+  
+  body{
+    background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/background_01.png);
+  }

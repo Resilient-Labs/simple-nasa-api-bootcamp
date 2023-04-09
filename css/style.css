@@ -24,10 +24,12 @@ body{
 img{
   display: block;
   margin: 0 auto;
+  width: 35%;
 }
 h3{
-  width: 50%;
+  width: 40%;
   background-color: rgba(0, 0, 0, 0.411);
+  /* margin-left: 0; */
 }
 main{
   display: flex;

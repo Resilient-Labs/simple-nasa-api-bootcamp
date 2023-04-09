@@ -1,0 +1,86 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width:50%;
+}
+
+h1{
+text-align: center;
+font-size: 4rem;
+color:white;
+}
+
+p{
+margin-top:1%;
+color:white;
+font-size: 1rem;
+text-align:center;
+font-weight: bolder;
+background-color: red;
+border-top:thick red;
+border-radius: 24% 2%;
+}
+
+h2{
+margin-left:20%;
+color:green;
+}
+
+.same{
+margin-left:3%;
+margin-top: -1%;
+color: white;
+}
+
+h3{
+margin-left:20%;
+color:green;
+background-color: white;
+}
+
+iframe{
+display:none;
+}
+
+body{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+flex-direction: column;
+align-items: center;
+background: url(..//img/nasa2.jpeg);
+background-repeat: no-repeat;
+background-size:cover;
+height:100%;
+}
+
+
+.box1{
+display: flex;
+flex-direction: column;
+justify-content: start;
+width:25%;
+}
+
+.box2{
+display:flex;
+flex-direction: column;
+width:50%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

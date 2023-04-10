@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+button{
+    color: yellow;
+    background-color: blue;
+}

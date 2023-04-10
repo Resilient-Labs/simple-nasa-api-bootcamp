@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  

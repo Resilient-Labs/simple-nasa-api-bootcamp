@@ -1,0 +1,60 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden {
+  display: none;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oxygen', sans-serif;
+  background-color: #EBCFC4;
+}
+input, button{
+  border-radius: 10px;
+}
+.shadow img {
+  transition: .5s ease;
+  }
+  
+  .shadow img:hover{
+    cursor: pointer;
+    box-shadow:
+    1px 1px #F0F3F3,
+    2px 2px #F0F3F3,
+    3px 3px #F0F3F3,
+    4px 4px #F0F3F3,
+    5px 5px #F0F3F3,
+    6px 6px #F0F3F3;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+  }
+h3{
+padding: 25px;
+}

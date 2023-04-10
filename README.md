@@ -1,4 +1,5 @@
 # 🚀 Project: Simple NASA API
+![NASA PICTURE OF THE DAY](https://user-images.githubusercontent.com/126501848/230803842-dc48dc73-1df3-4171-baaf-ab360c8f98c2.png)
 
 ### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
 

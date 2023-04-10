@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: url(../img/background.gif);
+  background-size: cover;
+
+}
+
+.userInput{
+  text-align: center;
+  width:50%;
+  float:left;
+  margin-top:15%;
+}
+
+.output{
+  text-align: center;
+  width:50%;
+  float:left;
+  display: block;
+  margin-top:5%;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.hidden{
+  display: none;
+}
+
+h1, h2, p{
+  color: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

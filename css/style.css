@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(0	17	124);
+  color: white;
+  font-family: 'Orbitron';
+}
+p{
+  font-family: 'Roboto Mono';
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+
+button{
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}

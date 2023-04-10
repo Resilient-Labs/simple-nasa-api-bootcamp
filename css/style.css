@@ -1,0 +1,39 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.hidden{
+  display: none;
+}
+
+body{
+  background-color: wheat;
+  color: black;
+  background-image: url(https://foreignpolicy.com/wp-content/uploads/2011/03/discovery109711671b22.jpg?quality=90);
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+}
+
+h3{
+  margin: 125px;
+  background-color: white;
+  color: black;
+}

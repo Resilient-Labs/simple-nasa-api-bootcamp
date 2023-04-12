@@ -32,5 +32,6 @@ function getPic(){
     })
     .catch(err => {
         console.log(`error ${err}`)
-    });
+    })
+    document.querySelector("input").value = ""
 }

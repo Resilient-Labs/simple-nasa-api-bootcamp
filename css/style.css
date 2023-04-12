@@ -1,25 +1,55 @@
-/******************************************
-/* CSS
-/*******************************************/
-
-/* Box Model Hack */
 *{
   box-sizing: border-box;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
 img{
-  display: block;
   margin: 0 auto;
 }
 
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
 .hidden{
   display:none;
+}
+
+body{
+  color:white;
+  background:url("https://thumbs.gfycat.com/MellowConstantGermanspitz-size_restricted.gif") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  text-shadow: #FC0 1px 0 10px;
+  margin:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+h1{
+  margin:0;
+}
+
+iframe{
+  background:transparent;
+  height:300px;
+  width:400px;
+}
+
+img{
+  height:70vh;
+}
+
+input{
+  margin:0;
+  padding:5px 10px 5px 10px;
+}
+
+button{
+  background:transparent;
+  color:white;
+  text-shadow: 1px 0 10px;
+  border:white .5px solid;
+  padding:8px 20px 8px 20px;
+}
+
+button:hover{
+  background-color: #2a2a26;
 }

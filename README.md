@@ -1,22 +1,15 @@
-# 🚀 Project: Simple NASA API
+# 🚀 NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+User can enter a date and return the picture/video of the day from NASA's API will appear.
 
-### How to submit your code for review:
+Link to project: https://menahassan-nasa-api.netlify.app/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# How It's Made
+Tech used: HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Lessons Learned:
+Working on this project allowed me to practice using the fetch method to grab data from an API. It also was my first time using the HTML <iframe> tag, which is commonly used to embed content like ads and videos. I used it here to display videos. 
+
+Once you find a functional API, the rest of the work is fairly straightforward. You just need to map out the path to each data point you're looking to grab. This process looks slightly different for each API you're using since not all data is organized the same way but there's enough of an overlap so that you can generally get a sense of the pattern you need to follow.
+
+<img src="nasa-api-project-screenshot.JPG">

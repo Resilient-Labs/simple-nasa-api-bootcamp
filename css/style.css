@@ -25,10 +25,12 @@ img{
   display: block;
   margin: 0 auto;
   width: 35%;
+  /* height: 300px; */
 }
 h3{
   width: 40%;
   background-color: rgba(0, 0, 0, 0.411);
+  /* height: 225px; */
   /* margin-left: 0; */
 }
 main{

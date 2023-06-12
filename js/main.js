@@ -5,6 +5,7 @@
 document.querySelector('button').addEventListener('click', getImage)
     
 function getImage(){
+  console.log('trying')
   let date= document.querySelector('#input').value
   const url= `https://api.nasa.gov/planetary/apod?api_key=LkxNd16xedRUYCJwHlqdxA8wyPvj47iVZq1aDKhy&date=${date}`
     fetch(url)

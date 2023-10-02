@@ -1,5 +1,5 @@
 # 🚀 Astronomy Today | NASA's API
-For all my astronomy lovers, search by any date and see real photos taken in space from that very day! A NASA powered API with amazing photos and videos.
+For all my astronomy lovers, search by any date and see real photos taken by NASA from that very day! A NASA powered API with amazing photos and descriptions. 
 
 Link to website - https://astronomypic.netlify.app/
 

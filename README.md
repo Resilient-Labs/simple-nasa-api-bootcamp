@@ -18,7 +18,7 @@ The user enters a date which is then entered in the URL of the NASA api. JSON is
 ## Lessons Learned:
 This was my first time experimenting with APIs. It was very fun to learn how much can be done with code and how powerful Javascript is. 
 
-### Examples:
+## Examples:
 Take a look at similar projects!
 
 Weather App: https://github.com/JacinthaDev/Weather-API/tree/answer

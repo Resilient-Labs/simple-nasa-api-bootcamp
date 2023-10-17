@@ -7,7 +7,7 @@ This project uses the NASA Api to enter a date and display the name, picture, an
 
 
 ## How It's Made:
-Tech used: HTML, CSS, JavaScript, JSON
+Tech used: HTML, CSS, JavaScript
 
 The user enters a date which is then entered in the URL of the NASA api. JSON is used to fetch the image and description and display it in the HTML.
 

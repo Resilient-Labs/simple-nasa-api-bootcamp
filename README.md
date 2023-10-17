@@ -4,6 +4,7 @@
 
 # About this project
 This project uses the NASA Api to enter a date and display the name, picture, and description of an image or video NASA took that day of outer space.
+View my project here: https://jacinthadev.github.io/simple-nasa-api/
 
 
 ## How It's Made:

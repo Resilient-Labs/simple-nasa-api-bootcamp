@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Space Age';
+    src: url('space\ age.ttf');
+}
+
+
+body{
+    background-image: url(stars.jpeg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+img{
+    width: 40rem;
+    height:40rem;
+}
+section{
+    background-color: rgba(255,255,255,0.5);
+    width: 50%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Space Age';
+    border-radius: 3px;
+}
+section >p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+button{
+    margin-top: 5px;
+    background-color: rgba(11, 11, 11, 0.5);
+    color: whitesmoke;
+    font-family: 'Space Age';
+    border-radius: 3px;
+}
+
+.hidden{
+    display: none;
+}

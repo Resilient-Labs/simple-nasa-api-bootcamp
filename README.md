@@ -4,7 +4,8 @@
 Here is my code that fetches a NASA API that generates an image based on the date. The image is accompanied by a name and description. There is also the rare chance that the media form might be a video and not an image!
 I used HTML, CSS, and JavaScript to code this project as well as a public API provided by NASA.
 
-![image](https://github.com/fjh321/NasaAPI/assets/64885403/dcd6f7b8-6bca-46f2-a55f-53742d2bb6c6)
+![image](https://github.com/fjh321/simple-nasa-api-FJH/assets/64885403/89ad8ae3-4b04-404a-bdbf-ff944d494e36)
+
 
 ### Lessons Learned :
 

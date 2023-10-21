@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 500px;
+  width: 50%;
+  border: 1px solid white;
+}
+
+body{
+  background-image: url('https://i.postimg.cc/8CqtLJ7Y/Minimal-Modern-You-Are-Enough-Quote-Desktop-Wallpaper.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+
+button{
+  background-color:black;
+  border:1px solid white;
+  color:white;
+  padding: 10px;
+}
+
+input{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.hidden{
+  display: none;
+}
+
+p{
+  font-weight: 500;
+}
+
+
+.input-section{
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+}
+
+h3{
+  padding: 0px 300px 0px 300px;
+  text-align: left;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

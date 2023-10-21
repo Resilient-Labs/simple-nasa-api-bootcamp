@@ -1,22 +1,5 @@
-# 🚀 Project: Simple NASA API
+# NasaAPI
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+### Here is my code that fetches a NASA API that generates an image based on the date. The image is accompanied by a name and description. There is also the rare chance that the media form might be a video and not an image!
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![image](https://github.com/fjh321/NasaAPI/assets/64885403/dcd6f7b8-6bca-46f2-a55f-53742d2bb6c6)

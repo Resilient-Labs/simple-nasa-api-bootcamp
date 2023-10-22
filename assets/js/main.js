@@ -20,15 +20,10 @@ function seeSpace() {
     //create a variable to store the api url and make it a template literal so that when the user inputs a date, it includes it in the url
     const url = `https://api.nasa.gov/planetary/apod/?api_key=cvtjjPWAjabf7usBXZlS8fZTpOyNcE1iv3GBIChs&date=${userDate}`
 
-    const options = {
-        headers: {
-            'Content-Security-Policy': 'upgrade-insecure-requests; default-src https:',
-            'Content-Security-Policy-Report-Only': 'default-src https:; report-uri /endpoint'
-        }
-    }
+
 
     //fetch the api and console log to see the object properties 
-    fetch(url, options)
+    fetch(url)
         //return respons in JSON
         .then(res => res.json())
         .then(data => {

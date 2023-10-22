@@ -48,7 +48,7 @@ function seeSpace() {
                 if (document.querySelector('iframe').classList.contains('hidden')) {
                     document.querySelector('iframe').classList.remove('hidden')
                     document.querySelector('img').classList.add('hidden')
-                    console.log('iframe revealed, img hidden')
+                    //console.log('iframe revealed, img hidden')
                 }
 
             } //If the data returns as image, place data url(link) in the source of the image element 
@@ -59,7 +59,7 @@ function seeSpace() {
                 if (document.querySelector('img').classList.contains('hidden')) {
                     document.querySelector('img').classList.remove('hidden')
                     document.querySelector('iframe').classList.add('hidden')
-                    console.log('img revealed, iframe hidden')
+                    //console.log('img revealed, iframe hidden')
                 }
             }
 

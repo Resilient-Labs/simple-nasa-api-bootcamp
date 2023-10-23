@@ -2,21 +2,8 @@
 
 ### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
 
-### How to submit your code for review:
+NASA API for NASA Picture of the Day -- pick a day of the year and get a picture or a video and a brief description from an astronomer
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![NASA APOD html](https://github.com/briannawillis195/simple-nasa-api-bootcamp/assets/143905399/e906db38-e0ec-426f-84e4-23b14f4a1884)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<b>Tech Used</b>: HTML, CSS, JavaScript, JSON

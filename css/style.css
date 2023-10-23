@@ -1,0 +1,77 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Helvetica, sans-serif;
+  background: black;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+header,
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1, 
+h2, 
+h3, 
+p {
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 0 10rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+img {
+  width: 50%;
+}
+
+iframe {
+  border: none;
+}
+
+h1:hover, 
+h2:hover, 
+h3:hover, 
+p:hover {
+  color: rgb(157, 255, 0);
+}
+
+input, 
+button {
+  padding: 1rem;
+  font-size: 1.8rem;
+  background:rgb(157, 255, 0);
+  border: none;
+}

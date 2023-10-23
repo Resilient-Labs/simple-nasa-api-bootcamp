@@ -21,6 +21,9 @@ img{
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h3, h2 {
+  padding-top: 2rem;
+}
 
 .hidden{
   display: none;

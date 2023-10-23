@@ -17,7 +17,50 @@ img{
   width: auto;
 }
 
+body {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+}
 
+h1 {
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+button {
+  border-radius: 10px ;
+  background-color: black;
+  color: white;
+}
+
+input {
+  border-radius: 10px ;
+}
+/* code pen */
+.container {
+  background-image: url("https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=100");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.star {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4px;
+  width: 4px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

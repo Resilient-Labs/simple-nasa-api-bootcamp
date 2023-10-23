@@ -4,9 +4,9 @@
 
 # NASA Picture of the Day
 
-**Project Link:** 
+**Project Link:** https://alejandralondev.github.io/simple-nasa-api-bootcamp/
 
-**Screenshot:** 
+**Screenshot:** ![nasa-pic-of-day-sc](https://github.com/alejandralondev/simple-nasa-api-bootcamp/assets/145242183/533056a7-ad17-4393-bdad-ba28c00f0306)
 
 
 ## How It's Made

@@ -1,0 +1,129 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font: 62.5% 'Gabarito', Arial, Helvetica, sans-serif;
+  background: #212121;
+  color: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  padding: 1%;
+  font-size: 3.2rem;
+}
+
+.container img {
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.container section {
+  margin: 1%;
+  text-align: center;
+}
+
+.container h3 {
+  font-size: 2rem;
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.flexContainer {
+  margin: 0 1% 1% 1%;
+  padding: 0 1% 1% 1%;
+  display: flex;
+  width: 100%;
+}
+
+.flexContainer div {
+  padding: 1%;
+  text-align: center;
+}
+
+#inputsAndBtns input, #inputsAndBtns button {
+  font-size: 3.2rem;
+  font-family: 'Gabarito', Arial, Helvetica, sans-serif;
+  border-radius: 10rem;
+  border: none;
+  padding: 0.5%;
+  margin: 0 0.2%;
+}
+
+.media > img, .media > iframe {
+  margin: 5% 0;
+  width: 50rem;
+  height: 40rem;
+  object-fit: fill;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.summary p {
+  padding: 5%;
+  line-height: 1.6;
+  font-size: 2rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.bn632-hover {
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn24 {
+  background-image: linear-gradient(
+      to right,
+      #6253e1,
+      #852d91,
+      #a3a1ff,
+      #f24645
+    );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

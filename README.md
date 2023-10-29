@@ -1,22 +1,13 @@
-# 🚀 Project: Simple NASA API
+# 🚀 Astronomy Today | NASA's API
+For all my astronomy lovers, search by any date and see real photos taken by NASA from that very day! A NASA powered API with amazing photos and descriptions. 
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+Link to website - https://astronomypic.netlify.app/
 
-### How to submit your code for review:
+## Tech Used:
+- Fetches from NASA's API
+- Javascript, HTML, CSS
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Things I'm proud of:
+- Had trouble at first when fetching from the endpoint and recieved data that wasn't an image file. Learned to use inspect and the console to figure out the exact object prop I needed to call
+- Was able to incorporate conditionals that would handle rendering a photo versus video in an organized manner in the brwoser
+- Was able to add my own creative touch to the UI/UX design

@@ -1,0 +1,103 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* img{
+  display: block;
+  margin: 0 auto;
+} */
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.hide{
+  display:none;
+}
+.float{
+  float:left;
+}
+
+header{
+  clear:both;
+  color:white;
+  text-align:center;
+}
+input{
+  margin-left:45%;
+}
+#container{
+  width:100%;
+  float:left;
+  margin-left:25%;
+  text-align:center;
+  height:500px;
+}
+
+h2{
+ margin-left:35%;
+}
+#media{
+  float:left;
+  width:25%;
+  margin-left:12%;
+  background: rgba(93, 229, 222, 0.453);
+  border-radius: 20px;
+  border:2px solid black;
+  color:white;
+}
+img{
+  width:100%;
+  border-radius: 20px;
+  
+}
+
+#search{
+  clear:both;
+}
+
+h3{
+  background: rgba(93, 229, 222, 0.453);
+  border-radius: 20px;
+  border:2px solid black;
+  color:white;
+}
+
+.description{
+  width:50%;
+  height:300px;
+  
+}
+.background{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+iframe{
+  margin-left:20%;
+}

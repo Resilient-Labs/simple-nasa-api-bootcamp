@@ -1,6 +1,8 @@
 # NASA-POD
 This API shows NASA's picture of the day.
 
+Preview my page: https://codedbycass.github.io/NASA-POD/
+
 <img width="1463" alt="Screenshot 2023-10-23 at 12 33 22 AM" src="https://github.com/codedbycass/NASA-POD/assets/122684139/a6313a24-ac04-4fd0-9189-4c39182e866b">
 
 ## How it's made

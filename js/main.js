@@ -27,15 +27,28 @@ fetch (`https://api.nasa.gov/planetary/apod?api_key=YLATMvFYwYcB9EgUvhbDgHNfCgSe
 .then(data => {
     console.log(data)
     document.querySelector('h2').innerText = data.title
-    document.querySelector('img').src = data.hdurl
     document.querySelector('h3').innerText = data.explanation
-})
-.catch(err => {
-        console.log(`error ${err}`)
-});
+
+    // checking if media type is image
+    // if image, don't display iframe and display block to create container for img
+    // if media type is video display the iframe video and block for video container
+    // data.url 
+    if (data.media_type === 'image') {
+      document.querySelector('img').style.display = 'block'
+      document.querySelector('iframe').style.display = 'none'
+      document.querySelector('img').src = data.hdurl
+    } else if (data.media_type === 'video') {
+      document.querySelector('img').style.display = 'none'
+      document.querySelector('iframe').style.display = 'block'
+      document.querySelector('iframe').src = data.url
+    }
+  })
+  .catch(err => {
+          console.log(`error ${err}`)
+  })
 }
 
-// code pen
+// code pen moving galaxy background
 const container = document.getElementById('container');
 
 const timeToRunAnim = 5000;

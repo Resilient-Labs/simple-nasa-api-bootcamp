@@ -1,22 +1,19 @@
 # 🚀 Project: Simple NASA API
 
 ### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+This project was a project utilizing NASA's API were it grabs the users input of date & displays a image taken that day.
 
-### How to submit your code for review:
+## How it's Made:
+Tech used: HTML, CSS, Javascript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Optimizations
+I'd like to go back and redo this site using Flex
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned
+This site was a great learning experience to make API's connect. It was cool to see you make an input & get an image back, i tried my birthday of course. But making information from the API display was also a very good lesson & manipulating it to recieve something else such as time.
+
+## Example
+Take a look at these example that i have below:
+
+![Image Alt Text](./img/nasapim.PNG)
+

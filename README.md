@@ -1,22 +1,22 @@
-# 🚀 Project: Simple NASA API
+# NASA Picture/Video of the Day 🌌✨
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+### Description
+Explore captivating astronomy images and videos with this app, which:
+- Fetches data from <a href="https://api.nasa.gov/">NASA's Astronomy Picture of the Day (APOD) API</a>.
+- Dynamically displays an image or video, along with its title and caption, based on the selected date.
+- Features a 🌠shooting star animation🌠 in the background.
 
-### How to submit your code for review:
+Check out the app <a href="https://xsarahyu.github.io/simple-nasa-api-bootcamp/">here</a>!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="nasa-potd.png">
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Tech Used
+- HTML
+- CSS
+- JavaScript
+
+### Lessons Learned
+- Use of `<iframe>` to embed another HTML page into the current one, allowing videos from NASA to display directly on our page.
+- Restriction of date inputs to the current date and the earliest accessible date.
+- Design of a shooting star animation in CSS.
+- Use of the `change` event, which triggers updates when the user modifies an element's value, enhancing user experience. For this project, I used it in lieu of a submit button to dynamically fetch new picture/video content on date changes.

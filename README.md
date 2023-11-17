@@ -1,6 +1,6 @@
 # Simple NASA API 🚀
 
-![Screenshot](link-to-screenshot.png) <!-- Replace with the actual link to your screenshot -->
+![project](https://github.com/anaiscmateus/simple-nasa-api-bootcamp/assets/75923327/8386a84a-7e31-4139-ad12-94f8ad572ec1)
 
 ## Project Description
 

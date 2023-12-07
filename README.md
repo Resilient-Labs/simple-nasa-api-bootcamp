@@ -1,5 +1,6 @@
 # NASA Photo Fetcher
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+
+Welcome to NASA API Photo Picker, a server-side application that leverages the NASA Open API's Astronomy Picture of the Day (APOD) to showcase captivating space images. You can explore the universe by entering a specific date and discovering the photo captured on that day, along with fascinating information about it.
 
 Link to project: https://nasaphotodayapi.netlify.app/
 

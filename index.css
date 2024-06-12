@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+h1{
+  text-align: center;
+}
+input{
+  text-align: center;
+}
+button{
+  text-align: center;
+}
+section{
+  margin-left: 25%;
+  width: 50%;
+  text-align: center;
+}
+img{
+width: 100%
+}

@@ -2,21 +2,14 @@
 
 ### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Link to project:** https://api-nasasimple.netlify.app/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img width="600" alt="Screen Shot 2022-10-21 at 12 59 35 AM" src="https://user-images.githubusercontent.com/113194307/197115823-97803bf6-9f03-4a1b-a9f8-3cd2e63047f9.png">
+
+
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+

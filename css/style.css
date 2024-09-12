@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Croissant+One&display=swap');
+
+
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 8, 255, 0.5), rgba(50, 188, 0, 0.5));
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 1200px;
+   
+}
+
+
+ h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+}
+
+.small {
+    font-size: 2.5rem;
+}
+
+
+.form-area {
+    display: 0 auto;
+    padding-top: 10%;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 0, 0, 0);
+    padding: 0.8% 2%;
+    width: 52.2%;
+    margin: 0.5%;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    margin: 0 auto; 
+}
+
+
+
+form {
+    padding-left: 29%;
+}
+
+input {
+    display: 0 auto;
+    padding-top: 10%;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 0, 0, 0.75);
+    margin: 0.5%;
+    border: 2px solid;
+    margin: 0 auto;   
+    font-size: 2rem;
+}
+#date-info {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: rgba(255, 255, 255, 0.75);
+    color: blue;
+    padding: 1% 2%;
+    border-right: none ;
+}
+#submit {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 14.2%;
+    padding: 1% 2%;
+}
+
+#submit:hover {
+    color: rgb(8, 9, 136);
+    border: 2px solid white;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.main section {
+    padding-top: 10%;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 0, 0, 0.55);
+    padding: 0.8% 2%;
+    width: 52.2%;
+    margin: 0.5%;
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nasa-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 30px;
+    display: flex;
+    margin: 0 auto;
+}
+
+ol {
+   
+    flex-direction: column;
+}
+
+li {
+
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: "Teko", Helvetica, sans-serif;
+    list-style-type: none;
+
+    
+    
+}
+
+a {
+    margin: 0 auto;
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: greenyellow
+  
+}
+

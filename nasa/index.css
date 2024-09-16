@@ -1,0 +1,33 @@
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 15px;
+  text-align: center;
+  font-family: 'Jomolhari', serif;
+}
+
+h1{
+  font-size: bold;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+input  {
+  width: 23%;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button {
+  height: 20px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: aliceblue;
+}
+
+img{
+  width: 70%;
+  margin-top: 24px;
+}

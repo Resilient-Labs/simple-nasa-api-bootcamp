@@ -1,0 +1,25 @@
+h1{
+   text-align: center;
+
+}
+
+.date{
+    text-align: center;
+    margin: auto;
+}
+
+body{
+    text-align: center;
+    background-image: url(https://gifimage.net/wp-content/uploads/2017/08/space-animated-gif-9.gif);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    color: white;
+   
+}
+
+
+
+img{
+    height:30% ;
+    width:30% ;
+}

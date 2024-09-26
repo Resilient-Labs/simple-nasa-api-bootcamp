@@ -1,0 +1,107 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+input{
+  font-size: 1.8rem;
+}
+
+button{
+  font-size: 1.8rem;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../img/shootingstar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1{
+  font-family: 'Spaceboy', Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  margin: 1%;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h2, h3, p{
+  font-family: 'BM Space', Arial, Helvetica, sans-serif;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+
+.hidden{
+  display: none;
+}
+
+iframe{
+  display: block;
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+.photos{
+  width: 45%;
+}
+
+#description{
+  width: 50%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+#instructions{
+  font-size: 1.8rem;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@font-face {
+  font-family: 'BM Space';
+  src: url("BMSPA___.TTF")
+}
+
+@font-face {
+  font-family: 'Spaceboy';
+  src: url("SPACEBOY.TTF")
+}
+
+@font-face {
+  font-family: 'Space Age';
+  src: url("space age.ttf")
+}
+
+

@@ -1,0 +1,16 @@
+input{
+    display: block;
+    height: 20px;
+}
+button{
+    display: block;
+    height: 30px;
+    width: 10%;
+    margin-top: 20px;
+}
+iframe{
+    border: none;
+}
+.hidden{
+    display: none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture of the day</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <h1>Nasa picture of the day</h1>
+  <section class="userInput">
+    <div>
+      <label for="date" >* Enter a date: </label>
+      <input type="date" name="date" id="date" placeholder="Enter a name">
+      <p>*Date must be between Jun 16, 1995 and today's date</p>
+      <button id="getPic">Get the picture for the day entered</button>
+    </div>
+    <button id="getTodayPic">Get today's picture</button>
+  </section>
+
+  <h2>Title: <span class="title"></span></h2>
+  <h3>Date: <span class="dateTitle"></span></h3>
+  <img src="" alt="" class="hidden">
+  <iframe src="" frameborder="0" class="hidden" width="800" height="500"></iframe>
+  <p class="descPara">Description: <span class="description"></span></p>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

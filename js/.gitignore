@@ -1,0 +1,6 @@
+# 1. create a .gitignore file in project folder
+# 2. list any file names/paths within .gitignore that you don't want to sync
+# 3. create a txt file containing the API keys and add txt file name to .gitignore
+# these files will not get pushed to github.
+
+apikeys.js

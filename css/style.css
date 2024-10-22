@@ -1,0 +1,114 @@
+/******************************************
+ * CSS
+ *******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+ * LAYOUT
+ *******************************************/
+body {
+  font-family: "Orbitron", sans-serif;
+  background: url("https://images.unsplash.com/photo-1518756131217-2b8c0b75e4c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHNwYWNlfGVufDB8fHx8MTY0Nzg0Mzc3Nw&ixlib=rb-1.2.1&q=80&w=1080")
+    no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+}
+
+/* Container for content */
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  max-width: 600px; /* Limits width */
+  width: 90%; /* Responsive width */
+}
+
+/* Headings styles */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+h2,
+h3 {
+  margin: 20px 0;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Input and Button styles */
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: calc(100% - 20px); /* Full width minus padding */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e88e5;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+/* Image and Video styles */
+img {
+  max-width: 100%; /* Use full container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+iframe {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 100%; /* Use full container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  input,
+  button {
+    width: 100%;
+  }
+}
+
+/******************************************
+ * ADDITIONAL STYLES
+ *******************************************/
+
+/* Add more styles if needed */

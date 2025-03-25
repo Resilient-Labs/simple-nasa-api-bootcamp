@@ -1,0 +1,83 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+li, a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+img, h3 {
+  /* max-height: 80%; */
+  max-width: 80%;
+}
+
+/* iframe {
+  width: 80%;
+  height: 100%;
+} */
+
+.results, form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+form {
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 1rem;
+}
+
+input, button {
+  background: black;
+  color: white;
+  padding: .5rem;
+  border: 2px solid white;
+  border-radius: .3rem;
+}
+
+input::placeholder {
+  color: white;
+}

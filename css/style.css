@@ -1,0 +1,132 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.nasaImage{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  background: #0032A0;
+}
+
+nav {
+  background: #fff;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  width: 140px;
+  font-family: 'Inter', Arial;
+  font-size: 2em;
+  word-wrap: break-word;
+  margin: 20px 100px 0 20px;
+}
+
+.nasaLogo {
+  margin-top: 7px;
+  width: 133px;
+  height: 107px;
+  border-right: 1px solid black;
+}
+
+input {
+  font-family: 'DM Mono', Arial; 
+  background: #F3F3F3;
+  height: 72px;
+  font-size: 2em;
+  margin-top: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+button {
+  height: 72px;
+  background: #0032A0;
+  color: white;
+  border: none;
+  box-shadow: none;
+  padding: 5px 15px;
+  margin-top: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: 'Open Sans', Arial;
+  cursor: pointer;
+}
+
+
+
+main {
+  margin: -30px;
+  padding: 30px 30px;
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-image: url('../img/stars.png');
+  background-repeat: repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+main > div {
+  
+  margin-top: 50px;
+  background: #ededed;
+  border-radius: 4px;
+  width: 700px;
+  height: 950px;
+  overflow: hidden scroll;
+  
+  
+}
+
+.text {
+  padding: 50px 40px;
+}
+
+h2 {
+  font-family: 'Inter', Arial;
+  display: block;
+  font-size: 2em;
+  height: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Public Sans', Arial;
+  font-size: 1em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+

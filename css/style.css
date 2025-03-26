@@ -1,0 +1,40 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background: black;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img,
+input,
+button {
+  display: block;
+  margin: 0 auto;
+
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+h2,
+h1,
+h3 {
+  text-align: center;
+  color: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

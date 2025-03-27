@@ -1,0 +1,146 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+#img1{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid goldenrod;
+    max-height: 800px;
+    max-width: 800px;
+    margin: 15px;
+  }
+  
+span{
+    display: block;
+    border: .5px solid goldenrod;
+    color: goldenrod;
+    width: auto;
+    font-size: xx-small;
+  }
+  
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../1kIU.gif);
+    background-size: cover;
+}
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+h1{
+    text-decoration: underline #f15139;
+    font-size: 65px;
+    border: 10px solid goldenrod;
+    background-color: #324d95;
+    color: #fefefe;
+    padding: 15px;
+}
+
+h1:hover{
+    background-color: #0f36a1;
+    transform: scale(1.06);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 35px 35px rgba(145, 92, 182, .4);
+}
+
+
+input{
+    padding: 5px;
+    font-size: large;
+    border: 3px solid #f15139;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    border: 5px solid #324d95;
+    background-color: goldenrod;    
+    font-weight: bolder;
+    margin: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(253, 204, 80);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    transform-style: preserve-3d;
+    translate:(0, 0.375em);
+    transform: scale(1.5) translate(0em, 0.75em);
+}
+
+html{
+    font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+h2{
+    color: white;
+    border: 5px solid #f15139;
+    background-color: #324d95;
+    padding: 10px;
+}
+
+h3{
+    color: white;
+    border: 5px solid #f15139;
+    background-color: #324d95;
+    padding: 10px;
+}
+
+h4{
+    color: white;
+    border: 5px solid #f15139;
+    background-color: #324d95;
+    padding: 10px;
+}
+
+h5{
+    color: whitesmoke;
+    border: 5px solid #f15139;
+    background-color: #324d95;
+    padding: 15px;
+    max-width: 65%;
+    font-size: large;
+    font-weight: bolder;
+}
+
+iframe{
+    border: none;
+}
+
+#img2 {
+    border: none;
+    height: 100px;
+    width: 130px;
+    margin: 25px;
+}
+
+audio{
+    height: 12px;
+    width: 200px;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color:black !important;
+    }
+
+audio::-webkit-media-controls-panel:hover{
+    background-color:goldenrod !important;
+}
+
+a{
+    color: inherit;
+    text-decoration: underline #f15139;;
+}

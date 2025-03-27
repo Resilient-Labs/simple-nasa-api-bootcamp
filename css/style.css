@@ -1,0 +1,81 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+main{
+  color: white;
+  background: linear-gradient(150deg,rgb(22, 19, 17) 40%, rgb(121, 41, 46),rgb(62, 82, 102), rgb(22, 19, 17) 70%);
+  height: 100vh;
+
+}
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 0;
+}
+.contentBox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.inputBox {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+input, button {
+  background: none;
+  color: white;
+  font-size: 3em;
+  border: 1px solid rgb(121, 41, 46);
+  width: 40%;
+}
+h3 {
+  font-size: 1.8em;
+}
+.words {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.inputBox {
+
+}
+.media {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  height: 80vh;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.hidden {
+  display: none;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

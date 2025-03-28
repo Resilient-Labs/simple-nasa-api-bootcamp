@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Nasa API</title>
+</head>
+<body>
+    <main>
+        <div>
+            <img src="/img/nasaLogo.jpg" alt="Nasa Logo" id="nasaLogo">
+        </div>
+    </main>
+    <!-- Part One -->
+    <section id="content">
+        <label for="date">Enter a date:</label>
+        <input type="datetime" name="date" id="date" placeholder="yyyy-mm-dd">
+        <input type="button" value="Submit">
+    </section>
+
+    <!-- Output data -->
+     <section id="output">
+        <!-- Title -->
+        <h1></h1>
+        <p id="description"></p>
+        <!-- Image sources -->
+        <div>
+            <img src="" alt="" id="planetImage" hidden>
+            <video src="" hidden></video>
+        </div>
+
+     </section>
+    <script src="/js/index.js"></script>
+</body>
+</html>

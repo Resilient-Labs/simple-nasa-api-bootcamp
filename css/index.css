@@ -1,0 +1,389 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    clear:  both;
+}
+
+/* Image */
+main {
+    display: flex;
+    justify-content: center;
+
+}
+#nasaLogo{
+    width: 25em;
+}
+main section{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#content{
+    text-align: center;
+}
+#content label{
+    font-size: 1.5em;
+    margin-right: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+#content #date{
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 2em;
+}
+
+#content input[type=button]{
+    width: 7em;
+    border-radius: 5px;
+}
+
+#content label, #content #date{
+    width: 50em;
+}
+
+#content label, #content input{
+    height: 3em;
+}
+
+/* Output Data */
+
+#output{
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    margin: auto;
+    width: 80%;
+    height: 30em;
+    margin-top: 3em;
+}
+
+#output h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+    text-decoration: underline;
+    word-spacing: 5px;
+}
+
+#output p{
+    margin: auto;
+    width: 45%;
+    text-align: center;
+    word-spacing: 5px;
+    margin-top: 3px;
+}
+
+#output div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#output img{
+     width: 25em;
+     height: 30em;
+     background-size: cover;
+     position: relative;
+     right: 12em;
+}
+
+/* Animations */
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: calc(20em / cos(45deg));
+    height: 14px;
+    --c: #000 0 15px,#0000 0 20px;
+    background: 
+      repeating-linear-gradient(135deg,var(--c)) left top,
+      repeating-linear-gradient( 45deg,var(--c)) left bottom;
+    background-size:  200% 50%;
+    background-repeat: no-repeat;
+    animation: l4 4s infinite linear;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  @keyframes l4 {
+      100% {background-position:top right,bottom right}
+  }
+
+
+
+/* Other style */
+@media screen and (max-width:1600px){
+    #output{
+        width: 90%;
+        height: 30em;
+        margin-top: 3em;
+    }
+    
+    #output p{
+        margin: auto;
+        width: 40%;
+        word-spacing: 2px;    
+    }
+
+    
+    #output img{
+         right: 8em;
+    
+    }
+}
+
+@media screen and (max-width:1350px){
+   
+    #output img{
+         right: 5em;
+    
+    }
+}
+
+@media screen and (max-width:1200px){
+    #content{
+        text-align: center;
+    }
+    #content label{
+        font-size: 1.5em;
+        margin-right: 18px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    }
+    #content #date{
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        letter-spacing: 1.8em;
+    }
+    
+    #content input[type=button]{
+        width: 6em;
+        border-radius: 5px;
+    }
+    
+    #content label, #content #date{
+        width: 48em;
+    }
+    
+    #content label, #content input{
+        height: 2.8em;
+    }
+    
+    #output{
+        width: 100%;
+        height: 30em;
+        margin-top: 2em;
+    }
+    
+    #output p{
+        margin: auto;
+        width: 40%;
+        word-spacing: 1px;    
+    }
+
+    #output img{
+         right: 5em;
+    
+    }
+}
+
+@media screen and (max-width:1050px){
+    #nasaLogo{
+        width: 20em;
+    }
+
+    #output{
+        width: 100%;
+        height: 29em;
+        margin-top: 1.9em;
+    }
+    
+    #output p{
+        margin: auto;
+        width: 40%;
+        word-spacing: 0.5px;    
+    }
+
+    #output img{
+         right: 1em;
+         height: 28em;
+         top: 1em;
+    }
+}
+
+@media screen and (max-width:900px){
+    #content{
+        text-align: center;
+    }
+    #content label{
+        font-size: 1.3em;
+        margin-right: 5px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    }
+    
+    #content #date{
+        padding: 12px;
+        border-radius: 10px;
+        text-align: center;
+        letter-spacing: 1.1em;
+    }
+    
+    #content input[type=button]{
+        width: 5em;
+        border-radius: 5px;
+    }
+    
+    #content label, #content #date{
+        width: 40em;
+    }
+    
+    #content label, #content input{
+        height: 2.2em;
+    }
+
+    #output{
+        width: 100%;
+        height: 29em;
+        margin-top: 1.9em;
+    }
+    #output h1{
+        font-size: 1.7em;
+        word-spacing: 10px;
+    }
+    
+    #output p{
+        margin: auto;
+        width: 45%;
+        word-spacing: 0.5px;    
+    }
+
+    #output img{
+        width: 20em;
+        height: 30em;
+        right: 1em;
+        height: 28em;
+        top: 2em;
+    }
+}
+
+@media screen and (max-width:750px){
+    #nasaLogo{
+        width: 18em;
+    }
+    #content{
+        text-align: center;
+    }
+    #content label{
+        font-size: 1.1em;
+        margin-right: 5px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    }
+    
+    #content #date{
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        letter-spacing: 1.0em;
+    }
+    
+    
+    #content label, #content #date{
+        width: 33em;
+    }
+    
+    #content label, #content input{
+        height: 2em;
+    }
+
+    #output{
+        width: 100%;
+        height: 29em;
+        margin-top: 1.9em;
+    }
+    #output h1{
+        font-size: 1.5em;
+        word-spacing: 5px;
+    }
+    
+    #output p{
+        margin: auto;
+        width: 45%;
+        word-spacing: 0.5px;    
+        font-size: 14px;
+        margin-top: 2px;
+    }
+
+    #output img{
+        width: 18em;
+        height: 25em;
+        right: .1em;
+        height: 28em;
+        top: 1em;
+    }
+}
+
+@media screen and (max-width:660px){
+    
+    #output{
+        display: flex;
+        flex-flow: row wrap;
+        flex-grow: 1;
+        margin: auto;
+        width: 100%;
+    }
+    #output h1{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 1.5em;
+    }
+
+    #output div{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #output p{
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        word-spacing: 2px;
+        margin-top:10px;
+    }
+    #output img{
+        display: flex;
+        flex-flow: row;
+        width: 50%;
+        height: 110%;
+   }
+}
+
+@media screen and (max-width:635px){
+    #content{
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    #content label{
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #content #date{
+        width: 70%;
+        font-size: 1.2em;
+        margin:auto
+    }
+    
+    #content input[type=button]{
+        width: 7em;
+        border-radius: 5px;
+        margin:auto;
+        margin-top: 2%;
+    }
+
+}
+

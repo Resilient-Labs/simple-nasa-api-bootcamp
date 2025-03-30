@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: url(stars.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #091c3d; */
+}
+
+h1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+h2{
+    font-size: 2.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+div{
+    display: flex;
+    margin: 15px 0 0 0px;
+    width: 100%;
+    height: 360px;
+}
+
+#turtle{
+    display: grid;
+    position: relative;
+    height: 430px;
+    width: 105%;
+    transform: rotate(1turn);
+    margin-left: -100px;
+    /* border: none; */
+}
+
+/* p{
+    
+  margin: 50px auto;
+  border-radius: 15px;
+  background: #00bfb6;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+
+p:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid #00bfb6;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #00bfb6;
+    border-bottom: 15px solid transparent;
+    right: -16px;
+    top: 0px;
+  } */
+
+.textBox{
+    color: white; 
+    width:auto;
+    animation: typing 2s steps(40), blink .5s step-end infinite alternate;
+    overflow: hidden;
+    font-size: 2rem;
+    font-family: monospace;
+    border-right: 2px solid;
+    border: white;
+    width: 35%;
+    white-space: nowrap;
+    overflow: hidden; 
+    height: 75px;
+    margin: 100px 0 0 -120px;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+
+.textBox:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left:
+}
+
+
+
+
+span{
+
+}
+
+section + section{
+    /* border: 1.5px solid white; */
+    width: 40%;
+}
+
+.two{
+    width: 30%;
+    height: 50px;
+    margin-top: 25px;
+}
+
+input{ 
+    font-size: 25px;
+    height: 45px;
+    width: 50%;
+    color: rgb(13, 13, 128);
+    margin: 65px 0 0 80px;
+    border-radius: 3px;
+}
+
+button{
+    color: white;
+    /* border: 1px solid #66795e; */
+    background-color: #CB1127;
+    font-size: 25px;
+    height: 44px;
+    width: 40%;
+    border-radius: 3px;
+    margin: 25px 100px;
+    box-shadow: #c46d77 -1px -1px 20px 0px;
+}
+
+button:hover{
+
+}
+
+#pic{
+    background: white;
+    display: flex;
+    border: 15px solid white;
+    padding: 0px;
+    height: 450px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    border-radius: 3px;
+}
+
+h3{
+    display: flex;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    color: #473D54;
+    background: #F4F7F6;
+    padding: 5px;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 185px;
+}

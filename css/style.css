@@ -1,0 +1,41 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: "Tektur", sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://wallpapers.com/images/hd/nasa-aesthetic-earth-on-space-knlfuhef7vedlsbq.jpg);}
+
+button {
+  background: rgb(128, 128, 128);
+  border: none;
+  color: rgba(255, 255, 255);
+  border-radius: 8px;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+section {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

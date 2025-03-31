@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/theme-default.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="background background-1"></div>
+		<div class="background background-2"></div>
+		<main>
+			<h1 class="shadow-box solid-shadow">
+				<div>NASA Photo of the Day</div>
+			</h1>
+			<section class="search-panel">
+				<div class="shadow-box solid-shadow">
+					<input id="date-picker" type="date"/>
+				</div>
+				<div class="shadow-box clickable line-shadow">
+					<button>Search</button>
+				</div>
+			</section>
+			<section class="text-panel">
+				<div class="shadow-box solid-shadow">
+					<div class="content text-flow">
+						<h2 id="title">Pick a date!</h2>
+						<p id="description">Learn more about the NASA picture of the day.</p>
+					</div>
+				</div>
+			</section>
+			<section class="img-panel">
+				<div id=photo-container class="shadow-box solid-shadow">
+					<img id="photo" src="img/saturn-svgrepo-com.svg">
+					<iframe id="video" class="hidden"></iframe>
+				</div>
+			</section>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

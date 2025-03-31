@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', Helvetica, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  text-align: center;
+  padding: 50px;
+  background-image: url(../img/nasa\ Medium.png);
+  color: white;
+}
+
+button, input {
+  padding: 10px;
+}
+
+h5 {
+  width: 70%;
+}
+
+div.frame {
+  width: 512px;
+}
+
+img, iframe {
+  width: 100%;
+}
+
+section.pic {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

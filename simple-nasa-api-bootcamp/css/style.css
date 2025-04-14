@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+#nasaImage {
+    max-width: 25%;
+    height: 100%;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.information {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#pictureContainer {
+    display:none
+}

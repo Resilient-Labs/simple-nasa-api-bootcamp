@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height:400px
+}
+
+.hidden{
+    display: none;
+}

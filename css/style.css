@@ -1,0 +1,97 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html, body{
+  background-color: black;
+  background-image: url("../img/stars.png");
+  color:white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin:25px;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  margin: 15px auto;
+  border-bottom: 1px solid white;  
+}
+
+h2,h3 {
+  font-size: 30px;
+  text-align: left;
+  margin: 15px auto;
+  font-weight: 300;
+}
+
+h3 {
+  width:75%;
+  margin:10px auto;
+  padding:15px;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+p{
+  text-align: center;
+  margin: 15px auto;
+  font-size: 20px;
+}
+
+.top, .middle, .bottom{
+  justify-content: center;
+}
+
+.hidden{
+  display: none;
+}
+
+input{
+  width: 20rem;
+  height: 5rem;
+  color:white;
+  background-color: rgb(143, 143, 143);
+  text-align: center;
+  border-radius: 15px;
+  font-size: 20px;
+}
+button{
+  width: 10rem;
+  height: 5rem;
+  color:aliceblue;
+  background-color: rgb(37, 36, 35);
+  border-radius: 15px;
+  font-size: 20px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media only screen and (max-width: 600px) {
+  img {
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+}
+

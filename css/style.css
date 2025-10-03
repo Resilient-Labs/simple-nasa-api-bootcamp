@@ -21,8 +21,9 @@ img{
 /*******************************************/
 
 body{
-  background-image: url('/week-7/objects-nasa/img/nightSky.jpg');
+  background-image: url('/week-7/objects-nasa/simple-nasa-api-bootcamp/img/nightSky.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
 }
@@ -36,4 +37,13 @@ h1{
 
 h4{
   font-size: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+    body{
+      background-image: url(/week-7/objects-nasa/simple-nasa-api-bootcamp/img/star.gif);
+      background-repeat: repeat;
+    
+      background-color: black;
+    }
 }

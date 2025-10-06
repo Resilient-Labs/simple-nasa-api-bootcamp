@@ -1,0 +1,123 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* General page setup  Reference openAI*/
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: radial-gradient(circle at 20% 30%, #0a0f1c, #000);
+  color: #e6e6e6;
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+}
+
+/* Headings */
+h1 {
+  color: #4da6ff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: #ffdf6c;
+}
+
+h3 {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 1rem auto;
+  line-height: 1.6;
+  color: #d9d9d9;
+}
+
+/* Date input + button section */
+input[type="date"] {
+  background-color: #5b5454;
+  color: #e6e6e6;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+input[type="date"]:hover,
+input[type="date"]:focus {
+  border-color: #4da6ff;
+  outline: none;
+}
+
+button {
+  background-color: #4da6ff;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e90ff;
+}
+
+/* Media containers */
+#displayImage,
+#youtubePlayer,
+#mp4Player {
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image and iframe styling */
+#displayImage img,
+#youtubePlayer iframe,
+#mp4Player img {
+  width: 80%;
+  max-width: 560px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(77, 166, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+#displayImage img:hover,
+#youtubePlayer iframe:hover,
+#mp4Player img:hover {
+  transform: scale(1.02);
+}
+
+#youtubePlayer iframe {
+  height: 300px;
+  width: 80%;
+}
+
+/* Subheader text */
+h4 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ccc;
+  margin: 1rem 0 0.5rem;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

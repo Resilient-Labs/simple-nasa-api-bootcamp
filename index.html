@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800&family=IBM+Plex+Sans:wght@400;600&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header class="hero">
+		<h1 class="hero-title">
+			Interstellar Postcard
+		</h1>
+
+		<div class="controls">
+			<input id="date" type="date" />
+			<button id="getDate" type="button">Get Media</button>
+		</div>
+	</header>
+
+	<section class="result">
+		<div class="result-media">
+			<img id="apod-image" src="" alt="">
+			<iframe id="apod-video" src="" frameborder="0" hidden></iframe>
+		</div>
+
+		<div class="result-text">
+			<h2 id="apod-title" hidden>Name</h2>
+			<p id="apod-desc" hidden></p>
+		</div>
+	</section>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

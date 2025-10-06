@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #eaf0f9;
+    min-height: 100vh;
+    position: relative;
+    background: #0a0f16;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: url("../img/space.jpg") center/cover no-repeat;
+    transform: scale(1.06);
+    animation: space-drift 36s ease-in-out infinite alternate;
+    /* from ChatGPT */
+    filter: saturate(1.02) contrast(1.02);
+}
+
+@keyframes space-drift {
+
+    /* from ChatGPT */
+    0% {
+        transform: scale(1.06) translate(0, 0);
+        background-position: 48% 50%;
+    }
+
+    50% {
+        transform: scale(1.08) translate(-6px, -4px);
+        background-position: 52% 48%;
+    }
+
+    100% {
+        transform: scale(1.06) translate(4px, 6px);
+        background-position: 47% 52%;
+    }
+}
+
+/* anything with hidden stays hidden */
+[hidden] {
+    display: none !important;
+}
+
+.hero {
+    max-width: 1100px;
+    margin: 48px auto 24px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-title {
+    margin: 0 0 12px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: .3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-shadow: 0 2px 20px rgba(120, 160, 255, .25);
+}
+
+.hero-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 0 18px rgba(150, 180, 255, .35);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.controls input,
+.controls button {
+    height: 46px;
+    border-radius: 12px;
+    border: 1px solid #2a3b57;
+    font: inherit;
+    outline: none;
+}
+
+.controls input {
+    background: #9bb7ff;
+    color: #0a0f16;
+    color-scheme: light;
+    padding: 0 14px;
+}
+
+.controls input:focus {
+    border-color: #86aaff;
+    box-shadow: 0 0 0 3px rgba(134, 170, 255, .35);
+}
+
+.controls button {
+    padding: 0 16px;
+    background: #9bb7ff;
+    color: #0a0f16;
+    border-color: #9bb7ff;
+    font-weight: 800;
+    letter-spacing: .2px;
+    cursor: pointer;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, .35);
+}
+
+.controls button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, .45);
+}
+
+/* ===== Result: media LEFT, text RIGHT ===== */
+.result {
+    max-width: 1100px;
+    margin: 28px auto 56px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 52% 1fr;
+    gap: 28px;
+    align-items: start;
+}
+
+/* Media */
+.result-media img,
+.result-media iframe {
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+    background: #0a121e;
+    border: 1px solid #1f2b41;
+    border-radius: 14px;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, .55), 0 0 0 1px rgba(150, 180, 255, .12) inset;
+}
+
+.result-media iframe {
+    aspect-ratio: 16/9;
+    border: 0;
+}
+
+/* Text (glassy card) */
+.result-text h2,
+.result-text p {
+    margin: 0;
+    color: #eaf0f9;
+    text-align: center;
+    background: rgba(20, 28, 43, .58);
+    border: 1px solid rgba(160, 190, 255, .22);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    font-family: "Exo 2", Arial, sans-serif;
+}
+
+.result-text h2 {
+    padding: 14px 16px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: 0.2px;
+}
+
+.result-text p {
+    padding: 12px 16px 16px;
+    line-height: 1.9;
+    max-height: 58vh;
+    overflow: auto;
+}
+
+@media (max-width:900px) {
+    .result {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .result-text h2,
+    .result-text p {
+        text-align: center;
+    }
+}
+
+@media (prefers-reduced-motion:reduce) {
+
+    /* from ChatGPT */
+    body::before {
+        animation: none;
+        transform: none;
+    }
+}

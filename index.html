@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="View NASA's Photo of the day" />
+    <meta name="keywords" content="nasa, astronomy, stars, universe, photos" />
+    <title>Astronomy By the Day</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Astronomy By the Day</h1>
+
+    <!-- Due to lack of Federal funding, NASA's photo of the day API is no longer being updated beyond 10/1/25 -->
+    <section>
+      <label for="date">Select date:</label>
+      <input
+        id="date"
+        type="date"
+        name=""
+        value="2025-10-01"
+        max="2025-10-01"
+      />
+    </section>
+    <button id="submit" type="button" name="button">Get Photo</button>
+
+    <span>
+      Due to lack of federal funding, NASA's Photo of the Day is no longer being
+      updated, effective October 1, 2025.
+    </span>
+
+    <div id="img-container"></div>
+    <h2 id="h2"></h2>
+
+    <div id="iframe-container"></div>
+    <p id="p"></p>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

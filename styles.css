@@ -1,0 +1,220 @@
+*{
+  box-sizing: border-box;
+}
+
+/* css provided with help from chatgpt */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;500;700&display=swap');
+
+:root {
+  --bg: radial-gradient(circle at 20% 20%, #0d1b2a 0%, #000814 100%);
+  --accent: #29d9d5;
+  --highlight: #ff6ec7;
+  --text: #e0e6f0;
+  --secondary: #9fb1c9;
+  --button-hover: linear-gradient(135deg, #ff6ec7, #29d9d5);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  overflow-x: hidden;
+  position: relative;
+
+  /* layered background */
+  background-image:
+    radial-gradient(circle at 25% 25%, rgba(255,255,255,0.08) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(255,255,255,0.06) 0%, transparent 60%),
+    var(--bg);
+  background-blend-mode: screen;
+}
+
+/* title */
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.6rem;
+  color: var(--accent);
+  text-shadow: 0 0 25px rgba(41, 217, 213, 0.8);
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+/* input & button  */
+input[type="date"] {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--accent);
+  color: var(--text);
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  font-size: 1rem;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+input[type="date"]:focus,
+input[type="date"]:hover {
+  border-color: var(--highlight);
+  box-shadow: 0 0 10px rgba(255, 110, 199, 0.4);
+}
+
+button {
+  background: none;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  padding: 0.6rem 1.2rem;
+  border-radius: 1.5rem;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+
+  /* breathing glow animation */
+  animation: buttonBreathe 3s ease-in-out infinite;
+}
+
+button:hover {
+  background: var(--button-hover);
+  color: white;
+  box-shadow: 0 0 25px rgba(41, 217, 213, 0.4);
+  transform: scale(1.05);
+}
+
+/* breathing glow animation for the button */
+@keyframes buttonBreathe {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(41, 217, 213, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(41, 217, 213, 0.8);
+    transform: scale(1.05);
+  }
+}
+
+/* result area */
+h2 {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: var(--highlight);
+  text-shadow: 0 0 20px rgba(255, 110, 199, 0.6);
+}
+
+img,
+iframe {
+  margin-top: 1.5rem;
+  max-width: 85%;
+  border-radius: 1rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  transition: all 0.5s ease;
+  animation: fadeIn 1s ease forwards;
+}
+
+img:hover,
+iframe:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(41, 217, 213, 0.4);
+}
+
+/* description box */
+h3 {
+  margin-top: 1.5rem;
+  font-weight: 300;
+  color: var(--secondary);
+  max-width: 70ch;
+  line-height: 1.6;
+  text-align: justify;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+  animation: fadeIn 1s ease forwards;
+}
+
+h3:hover {
+  box-shadow: 0 0 20px rgba(41, 217, 213, 0.2);
+}
+
+/* image container */
+div {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* responsive design */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  input, button { width: 80%; margin: 0.5rem 0; }
+  img, iframe { max-width: 95%; }
+  h3 { max-width: 90%; font-size: 0.95rem; }
+}
+
+/* hide empty headings, show + animate when filled by JS */
+h2:empty,
+h3:empty {
+  display: none;
+}
+
+h2:not(:empty),
+h3:not(:empty) {
+  display: block;
+  animation: fadeIn 0.9s ease forwards;
+}
+
+/* comet streak keyframes */
+@keyframes cometMove {
+  0% {
+    transform: translate(0, 0) rotate(45deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(150vw, 150vh) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+/* comets container using ::after */
+body::after {
+  content: '';
+  position: fixed;
+  top: -50px;
+  left: -50px;
+  width: 2px;
+  height: 120px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.8));
+  border-radius: 50%;
+  opacity: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  /* create 10 comets using box-shadow */
+  box-shadow:
+    5vw 10vh 0 rgba(255,255,255,0.8),
+    20vw 30vh 0 rgba(255,255,255,0.7),
+    35vw 50vh 0 rgba(255,255,255,0.9),
+    50vw 20vh 0 rgba(255,255,255,0.8),
+    65vw 60vh 0 rgba(255,255,255,0.7),
+    80vw 40vh 0 rgba(255,255,255,0.9),
+    10vw 70vh 0 rgba(255,255,255,0.8),
+    25vw 80vh 0 rgba(255,255,255,0.7),
+    45vw 90vh 0 rgba(255,255,255,0.8),
+    75vw 10vh 0 rgba(255,255,255,0.9);
+
+  animation: cometMove 15s linear infinite;
+}
+

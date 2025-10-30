@@ -32,7 +32,7 @@ function getNasaPic() {
             clicked = false;
         }
         if(data.media_type = 'video') {
-            console.log(data.url)
+            //console.log(data.url)
             document.querySelector('iframe').src = data.url;
             clicked = false;
         }

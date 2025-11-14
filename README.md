@@ -1,22 +1,20 @@
-# 🚀 Project: Simple NASA API
+# NASA Project App
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+This project lets the user search any date for the NASA Astronomy Picture of the day!
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, and JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I used html for the markup, css for the styling, andI used Javascript for the logic of this project.
+
+## Lessons Learned:
+
+i had an issue where i would go to a video, then image, then video then the image wouldn't show up and thats 
+because the display none property on the image did not go away, so when an image is present,
+i will always make it a block level element 
+
+## Image of Project:
+
+![NASA image](nasa1.jpg)
+![NASA image](nasa2.jpg)

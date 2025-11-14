@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 650px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 75%;
+  max-width: 350px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  margin-left: 8px;
+  background: black;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: darkgray;
+  color: black;
+}
+
+img {
+  margin-top: 25px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* Responsive!! */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  input[type="text"] {
+    font-size: 24px;
+    padding: 18px;
+    width: 80%;
+    max-width: 500px;
+  }
+
+  button {
+    font-size: 24px;
+    padding: 18px 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .container {
+    max-width: 900px;
+  }
+}
+
+/* Responsive on bigger screens! */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  input[type="text"] {
+    font-size: 28px;
+    padding: 22px;
+    max-width: 600px;
+  }
+
+  button {
+    font-size: 28px;
+    padding: 22px 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .container {
+    max-width: 1100px;
+  }
+}

@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(138, 222, 222)
+}
+input{
+  width: 20%;
+  height: 35px;
+  font-weight: bold;
+}
+
+button{
+  width: 15%;
+  height: 35px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+}
+section{
+  text-align: center;
+  padding: 5%;
+}
+iframe{
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+img{
+  margin: auto;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1034px){
+  #image{
+    padding-right: 20%;
+  }
+}
+@media screen and (max-width: 818px){
+  button{
+    width: 30%;
+  }
+  input{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px){
+  #both{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    margin-bottom: 20px;
+    width: 60%;
+  }
+  button{
+    text-wrap: wrap;
+    height: 40px;
+    width: 40%;
+  }
+}
+
+

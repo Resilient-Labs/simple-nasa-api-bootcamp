@@ -1,22 +1,12 @@
-# 🚀 Project: Simple NASA API
+Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+The simple NASA API project has one api which has nasa daily data. We got the fetch function which fetches the url and returns image of the day and description from nasa documentations.
 
-### How to submit your code for review:
+How It's Made:
+Tech used: HTML, CSS, and JavaScript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Lessons Learned:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I learned how to fetch data that include images and videos using the nasa api.
+
+<img width="1664" height="892" alt="Screenshot 2025-10-09 at 3 06 47 PM" src="https://github.com/user-attachments/assets/e852a5aa-697f-4947-9bdf-38ad87492ce6" />

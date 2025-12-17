@@ -1,22 +1,15 @@
-# 🚀 Project: Simple NASA API
+## Description
+Discover the wonders of the universe by exploring NASA’s Astronomy Picture of the Day from any date you choose!
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+[Try the Live project!](https://l-meryem.github.io/nasa-pictures/)
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<a href="https://l-meryem.github.io/nasa-pictures/" target="_blank" ><img  width="1000" alt="Screenshot 2025-10-05 at 10-25-03 Nasa pictures" src="https://github.com/user-attachments/assets/059d849e-e899-494d-b428-db9ad4809ec1" /></a>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+### Tech used 
+
+ - `HTML`
+ - `CSS`
+ - `JavaScript`

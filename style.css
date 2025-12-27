@@ -1,0 +1,82 @@
+/* used google to help me style my webpage */
+
+body {
+  background-color: #0b0b0f; /* Dark, nearly black background */
+  color: #e0f7ff; /* Very light, cool-toned text color */
+  font-family: Arial, sans-serif;
+  text-align: center; /* Center all text content */
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 10px rgba(139, 216, 245, 0.7); /* Light blue glow effect */
+}
+
+.sin {
+  display: flex;
+  gap: 1rem; /* Space between the date input and button */
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+
+input[type="date"] {
+  background-color: #1a1a2e; /* Darker input background */
+  border: 1px solid #8bd8f5;
+  color: #e0f7ff;
+  padding: 0.75rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+button {
+  background-color: #8bd8f5; /* Light blue button color */
+  color: #0b0b0f;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #5ac4f0; /* Darken the color on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+
+h2, h3 {
+  color: #92dff3; /* A bright, contrasting blue */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+img, iframe {
+  width: 100%; /* Make image and iframe responsive */
+  max-width: 800px; /* Constrain the max width */
+  height: auto;
+  display: block;
+  margin: 1.5rem auto; /* Center the element with auto margins */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(139, 216, 245, 0.4); /* Add a glowing box shadow */
+  border: 2px solid #8bd8f5;
+}
+
+
+h3 + p {
+  width: 100%;
+  max-width: 800px;
+  text-align: left; /* Adjust text alignment for readability */
+  line-height: 1.6;
+}

@@ -1,22 +1,15 @@
-# 🚀 Project: Simple NASA API
+# Project: Simple NASA API
+<img width="1920"  alt="image" src="https://github.com/user-attachments/assets/904b4baf-3258-4816-b428-a53fe2a11a45" />
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+This project is a simple web application that connects to the public NASA Astronomy Picture of the Day API using client-side JavaScript. It allows users to input a date, fetch the corresponding astronomical image or video of the day, and dynamically display the media, title, and explanation on the webpage using the fetch() API and DOM manipulation.
 
-### How to submit your code for review:
+### Tech Stack
+- HTML
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- CSS
+  
+- JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+### Live Demo
+Click the link on the right under About to see the live demo.

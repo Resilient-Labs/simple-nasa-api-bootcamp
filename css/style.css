@@ -1,0 +1,42 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+ }
+
+ body{
+  background: linear-gradient(115deg, #6c77a3, #be1041cf);
+ }
+
+.one{
+  text-align: center;
+
+}
+
+
+img{
+  max-width: 90%;
+  object-fit: cover;
+}
+
+p{
+padding: 0 10%;
+font-size: 1.8em;
+background-color: hsla(228, 23%, 53%, 40%);
+
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

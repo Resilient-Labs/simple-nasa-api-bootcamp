@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body{
+  background-image: url('/week-7/objects-nasa/simple-nasa-api-bootcamp/img/nightSky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Stalinist One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h4{
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+    body{
+      background-image: url(/week-7/objects-nasa/simple-nasa-api-bootcamp/img/star.gif);
+      background-repeat: repeat;
+    
+      background-color: black;
+    }
+}

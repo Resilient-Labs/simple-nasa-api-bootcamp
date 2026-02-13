@@ -1,22 +1,41 @@
-# 🚀 Project: Simple NASA API
+# 🌌 NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+[![NASA API](https://img.shields.io/badge/Data-NASA%20API-lightblue?logo=nasa)](https://api.nasa.gov)
 
-### How to submit your code for review:
+> REST API that connects to NASA’s public data endpoints — bringing space exploration data closer to developers.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+---
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Overview
+
+**NASA API** is a lightweight REST API built with Javascript that integrates NASA open data API. </br>
+This project that connects to the NASA Open APIs (via api.nasa.gov) to fetch and display interesting space- and Earth-science data. </br>
+The purpose is to build a simple web application to explore NASA’s publicly accessible data endpoints and create engaging interfaces. </br>
+It provides structured endpoints that make it easy to consume NASA’s fascinating space data for learning, research, or fun side projects.
+
+---
+
+## Features
+
+- Access to NASA endpoints — “Astronomy Picture of the Day (APOD)” 🪐 
+- Simple REST endpoints for NASA APIs  
+- Environment-based API key configuration  
+- Clean JSON responses  
+
+---
+
+<img width="1600" height="786" alt="api-nasa" src="https://github.com/user-attachments/assets/1afe8334-a6b7-466e-acbf-a42be94cbe76" />
+
+---
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/AngelBelRoth/api-NASA.git
+
+# Enter the project directory
+cd api-NASA
+
+# Install dependencies
+npm install

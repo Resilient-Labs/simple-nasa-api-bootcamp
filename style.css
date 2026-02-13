@@ -1,0 +1,84 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(234, 226, 234);
+  text-shadow: 1px 1px 3px rgb(177, 169, 169);
+  font-family: Arial, sans-serif;
+  margin: 0;
+
+  text-align: center;
+}
+h1, h3, h2{
+  color: rgb(83, 63, 66);
+}
+button{
+  color:  rgb(196, 174, 196);
+  background-color: rgb(95, 88, 89);
+  padding:7.5px 20px;
+  font-size:20px;
+}
+input[type="text"]{
+  background-color: rgb(196, 174, 196);
+  margin: 20px 0;
+  padding: 10px 20px;
+}
+img{
+  display: none;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+iframe{
+  display: none; 
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+
+}
+h3{
+  padding-bottom: 50px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/*Responsiveness for tablets*/
+@media screen and (max-width:768px){
+  body{
+    padding: 10px;
+   
+  }
+
+  iframe{
+    height: 250px;
+    
+  }
+}
+
+@media screen and (max-width: 480px){
+  h1, input[type="text"], button, h2, h3{
+    width: 100%;
+  }
+    
+  iframe{
+    height: 200px;
+    width: 100%;
+  }
+  
+}

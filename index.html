@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1>Which date?</h1>
+		<input type="text" id="date-input" name="" value="" placeholder="YYYY-MM-DD">
+		<button type="button" id="nasa-btn" name="button">Get Picture</button>
+
+		<p>Available dates (click one):</p>
+		<p>Your picture shows up below this list, so scroll down after picking a date.</p>
+		<ul id="date-list"></ul>
+
+		<h2 id="apod-title">Name</h2>
+		<img id="apod-img" src="" alt="">
+		<!-- only filled in when media_type is "video" - NASA doesn't hand back a playable video file, just a link -->
+		<p id="apod-video-link"></p>
+		<h3 id="apod-description">Description</h3>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

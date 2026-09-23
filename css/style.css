@@ -1,0 +1,30 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  /* apod images come back huge (some are thousands of px wide) - without this
+     the browser shows them at full native size, which just looks like a zoomed-in crop */
+  max-width: 100%;
+  height: auto;
+}
+
+/* hover feedback so it's obvious the dates in the list are clickable */
+#date-list li{
+  cursor: pointer;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

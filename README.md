@@ -1,22 +1,25 @@
-# 🚀 Project: Simple NASA API
+# 🔭 NASA Image or Video of the Day!
+Use this program if you want to see the NASA image of the day!
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+# 📷 Images
+<img width="1891" height="1249" alt="Screenshot 2026-09-27 at 12 22 04 AM" src="https://github.com/user-attachments/assets/4e452b6a-faff-4efd-99d4-a2100c3a1136" />
 
-### How to submit your code for review:
+# 📋 How to use
+Open the app in your browser
+Choose a date, submit
+Instantly view image or video of the day
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# ✨ Features
+Fully responsive design for desktop and mobile
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# 🔨 Built With
+HTML5 – structure, 
+CSS3 – responsive design and background, 
+JavaScript - fetch image of the day from NASA API
+
+# 🧠 What I Learned
+How to work with APIs
+How to use fetch()
+How to work with JSON data
+How to manipulate the DOM
+How to handle errors

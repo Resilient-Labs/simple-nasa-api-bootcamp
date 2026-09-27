@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Search NASA's APOD by date and view the image or video, title, and description.">
+  	<meta name="keywords" content="NASA, astronomy, space">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>NASA Picture of the Day</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<main>
+			<h1>NASA Picture of the Day</h1>
+
+			<div class="searchContainer">
+				<input type="date" id="date">
+				<button id="searchNASA" type="button">Get Picture</button>
+			</div>
+
+			<section class ="nasaResults">
+				<h2 id="title"></h2>
+
+				<img id="nasaImage" src="" alt="">
+
+					<!-- UPDATE: tested NASA video responses returned a YouTube ebed URL, so using <iframe> instead of <video>  -->
+				<!-- <video id="nasaVideo" src="" controls></video> -->
+				 <iframe id="nasaVideo" src=""></iframe>
+
+				<p id="description"></p>
+			</section>
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

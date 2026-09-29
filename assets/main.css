@@ -1,0 +1,64 @@
+
+/* 
+=======================
+BORDER BOX HACK
+=======================
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*
+========================
+CLEARFIX HACK
+========================
+*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+	clear: both;
+}
+/* 
+===================================
+*/
+
+h1{
+    background-image:linear-gradient(to right, #1324be 20%, #4facfe 90%);
+    padding: 2rem;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    color: rgba(234, 228, 228, 0.773);
+}
+h2{
+    font-family: "Nunito", Arial, Helvetica, sans-serif
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+}
+img{
+    max-width: 600px;
+    max-height: 600px;
+}
+h3{
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+}

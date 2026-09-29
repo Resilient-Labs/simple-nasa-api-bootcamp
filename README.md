@@ -1,22 +1,11 @@
-# 🚀 Project: Simple NASA API
+# Project: 🚀 Project: Simple NASA API
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+## Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
 
-### How to submit your code for review:
+![screenshot of web page](assets/photos/screenshot.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### Using the NASA Picture of the Day API, I added a date input so the API can show what the historical picture-of-the-day was. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Issues that came up:
+### - Because some pictures are actually videos instead, I needed to create conditionals that ran depending on what the media type was. 
+### - While styling, I ran out of tokens so it's good to think about alternative options for protecting token usage. A colleauge suggested creating a lcoal JSON file to fetch the data. 

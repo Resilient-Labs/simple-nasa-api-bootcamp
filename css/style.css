@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101827;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.inputVal {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: #3979e6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #245ab3;
+}
+
+h2 {
+    margin-top: 35px;
+}
+
+/* Keep images and videos the same size */
+img,
+video {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 25px auto;
+    border-radius: 10px;
+    object-fit: contain;
+    background-color: black;
+}
+
+h3 {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.7;
+    text-align: left;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+    img,
+    video {
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}

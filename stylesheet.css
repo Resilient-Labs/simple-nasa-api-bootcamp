@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+}
+
+#media-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+body {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 60%;
+    max-width: 500px;
+}
+

@@ -1,22 +1,15 @@
-# 🚀 Project: Simple NASA API
+# NASA Picture of the Day
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+A simple front-end web app that uses NASA's Astronomy Picture of the Day (APOD) API to display a space image along with its title, date, and explanation.
 
-### How to submit your code for review:
+![Screenshot](./simple-nasa-api-bootcamp/img/nasaAPI.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It Works
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+1. The user picks a date (or loads today's picture).
+2. The app sends a request to NASA's APOD API.
+3. The response is displayed on the page: the image (or video), its title, the date, and NASA's explanation of what you're looking at.
+
+## How It's Made
+
+**Tech used:** HTML, CSS, JavaScript

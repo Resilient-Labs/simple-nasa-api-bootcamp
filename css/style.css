@@ -1,0 +1,37 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-image: url(/simple-nasa-api-bootcamp/img/observatory.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 15%;
+  font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+  min-height: 100vh;
+}
+h1, h2, h3 {
+  color: #000;
+}
+section{
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background: #ffffff8f;
+  padding: 2rem 5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+img, video {
+  width: 100%;
+  height: auto;
+  align-content: center;
+  display: block;
+}

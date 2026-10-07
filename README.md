@@ -1,22 +1,15 @@
-# 🚀 Project: Simple NASA API
+# NASA Picture of the Day
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+Pick any date and get NASA's Astronomy Picture of the Day for it: the title, the explanation, and the actual image. Some days it's a video, and the app handles that too.
 
-### How to submit your code for review:
+![NASA APOD screenshot](screenshot.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How the code works
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+`getNasa()` reads the date input and fetches NASA's APOD endpoint with that date. The response hands back a title, a long explanation, and a URL, which get written into the page's heading, subheading, and image element.
+
+The part I'm happiest with is the media branch, because it's defensive design against a real API quirk. APOD sometimes returns a video instead of a photo, and a naive implementation would just break on those days. The code checks `data.media_type` and shows either the image or an embedded video player, hiding whichever one isn't needed and clearing the old source so they never fight. It's a small thing, but it's the difference between an app that works on picture days and an app that works every day.
+
+The hardest part was that video case. Images are the happy path, but the layout had to survive both without looking broken, so the show/hide logic matters more than the fetch.
+
+Built with HTML, CSS, and vanilla JavaScript. My code is on the `answer` branch.

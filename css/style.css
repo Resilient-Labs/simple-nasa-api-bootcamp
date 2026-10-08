@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+div{
+    display: flex;
+    align-content: center;
+    width: 50%;
+    height: 100vh; 
+    flex-direction: column;
+}

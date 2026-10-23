@@ -1,0 +1,69 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 5px;
+    padding: 2rem;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #777cad, #100669);
+    color: whitesmoke
+}
+
+.input {
+    text-align: center;
+}
+
+.content {
+    margin: 5px;
+    padding:5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto minmax(0, 1fr);
+    column-gap: 2rem;
+    height: 65vh;
+    margin-top: 1rem;
+    background-color: rgba(240, 248, 255, 0.356);
+    border-radius: 5px;
+}
+
+.title,
+.dates {
+    grid-column: 1 / -1;
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+    font-style: bold;
+}
+
+.media {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.explanation {
+    grid-column: 1;
+    grid-row: 3;
+    line-height: 1.5;
+}
+
+.image,
+.media video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*only show when the JS calls on it */ 
+.media video, .media .image {
+    display: none;
+}

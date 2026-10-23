@@ -1,0 +1,48 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  background: rgb(0, 48, 73);
+  color: white;
+  font-family: monospace;
+}
+
+h1, h2{
+  font-family: 'Space Mono', 'Courier New', Courier, monospace;
+}
+div {
+  margin: 0 auto;
+  width: 30rem;
+  height: 20rem;
+  background: rgb(102, 118, 138);
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+}
+
+.hidden{
+    display:none;
+  }
+

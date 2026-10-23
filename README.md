@@ -1,22 +1,33 @@
-# 🚀 Project: Simple NASA API
+## NASA Stargazers 
+A web application that lets users pick a date to view NASA's Astronomy Picture of the Day (APOD). It displays the image or video, title, and explanation for the chosen date.
 
-### Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+## Features
+Date Picker: Select any date to retrieve media directly from NASA's official archive.
 
-### How to submit your code for review:
+Image & Video Support: Automatically detects whether the media is an image or a video and dynamically updates the layout.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Detailed Descriptions: Displays the official NASA title and comprehensive explanation for each daily entry.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## API Used
+NASA APOD API: [https://api.nasa.gov/planetary/apod](https://api.nasa.gov/planetary/apod)
+
+## How It Works
+The user inputs a date and clicks the search button.
+
+The app fetches data from the APOD API using the selected date.
+
+If the media type is an image, it renders an image element; if it is a video, it renders an iframe or video container.
+
+The title, explanation, and media source update on the page dynamically.
+
+## Built With
+HTML
+
+CSS
+
+JavaScript
+
+<img width="2868" height="1568" alt="image" src="https://github.com/user-attachments/assets/2a51b2d6-3a77-40ef-8de4-8ca41e8622e9" />
+
+ 
+

@@ -4,7 +4,7 @@
 A simple web app that lets users pick a date and see NASA's Astronomy Picture of the Day (APOD) for that day, whether it's an image or a video.
 
 - Live Demo:
-https://nasa-api-sandy.vercel.app/
+https://nasa-api-git-answer-rc-09fb.vercel.app/
 - screenshots:
 ![landingPage](./img/landingPage.jpeg)
 

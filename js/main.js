@@ -10,8 +10,8 @@ document.querySelector('video').style.display = 'none'
 
 function getPicture(){
 
-    let date = document.querySelector('input').value
-    let url = `https://api.nasa.gov/planetary/apod?api_key=Y9hCqW35b3EaO6hgQRcrA8eM3YCxxMpNIk1HuHV7&date=${date}`
+    const date = document.querySelector('input').value
+    const url = `https://api.nasa.gov/planetary/apod?api_key=Y9hCqW35b3EaO6hgQRcrA8eM3YCxxMpNIk1HuHV7&date=${date}`
     
     fetch(url)
         .then(res => res.json())

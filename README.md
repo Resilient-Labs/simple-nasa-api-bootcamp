@@ -6,13 +6,13 @@ The NASA Picture of the Day application is a web application that allows users t
 
 
 ## Features
-Date Selection: Choose a date to explore NASA's picture of the day.
-NASA API Integration: Retrieve daily astronomy content using NASA's APOD API.
-Image and Video Display: View the picture associated with the selected date.
+Date Selection: Choose a date to explore NASA's picture of the day.\
+NASA API Integration: Retrieve daily astronomy content using NASA's APOD API.\
+Image and Video Display: View the picture associated with the selected date.\
 Dynamic Content: Update the displayed content based on the selected date.
 
 ## Tech Stack
-Frontend: HTML, CSS, JavaScript/
+Frontend: HTML, CSS, JavaScript\
 API: NASA Astronomy Picture of the Day (APOD) API
 
 ## What I Learned

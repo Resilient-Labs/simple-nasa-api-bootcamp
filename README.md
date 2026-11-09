@@ -26,10 +26,10 @@ Updating webpage content dynamically using JavaScript.
 
 ## Installation
 Fork and clone the repository.\
-Navigate to the project directory.\
+Navigate to the project directory.
 
 ## Usage
 Open the index.html file in your browser.\
 Select a date.\
 Submit your date to retrieve NASA's picture or video of the day.\
-Explore the astronomy image or video!\
+Explore the astronomy image or video!

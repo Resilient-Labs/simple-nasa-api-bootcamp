@@ -1,8 +1,9 @@
 # NASA Picture of the Day
 
-The NASA Picture of the Day application is a web application that allows users to select a date and view NASA's Astronomy Picture of the Day (APOD). By entering a date, users can explore the picture or video NASA featured for that day, along with information and a description about the image or video.
+The NASA Picture of the Day application is a web application that allows users to select a date and view NASA's Astronomy Picture of the Day (APOD). By entering a date, users can explore the picture or video NASA featured for that day, along with information and a description about the image or video. The application uses NASA's APOD API to retrieve and display astronomy-related content based on the user's selected date.
 
-The application uses NASA's APOD API to retrieve and display astronomy-related content based on the user's selected date.
+<img width="1781" height="910" alt="NASAScreenshot PNG " src="https://github.com/user-attachments/assets/37d0b039-47da-4534-b505-d2d629426cdd" />
+
 
 ## Features
 Date Selection: Choose a date to explore NASA's picture of the day.

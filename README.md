@@ -28,6 +28,7 @@ The application requires an internet connection to access its external APIs. API
 No API Key required
 
 ## Screenshots and Demo
+Live Link: https://astronomypicks.netlify.app/
 
 ### Application Interface
 

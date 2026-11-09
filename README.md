@@ -12,7 +12,7 @@ Image and Video Display: View the picture associated with the selected date.
 Dynamic Content: Update the displayed content based on the selected date.
 
 ## Tech Stack
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML, CSS, JavaScript/
 API: NASA Astronomy Picture of the Day (APOD) API
 
 ## What I Learned

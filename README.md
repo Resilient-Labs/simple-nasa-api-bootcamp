@@ -1,6 +1,7 @@
 # 🚀 NASA Picture of the Day
 
-### JavaScript API Bootcamp Assignment
+<img width="1138" height="568" alt="Simple NASA" src="https://github.com/user-attachments/assets/a4fe0d0d-78bb-4227-99ff-e1ed8d86e264" />
+
 
 ## About the Project
 

@@ -7,6 +7,12 @@
 * An app that calls the Picture of the day API to fetch data.
 * User inputs data -> image title, image, and description are displayed.
 
+## Tech Stack
+
+- **Front end:** HTML, CSS, JavaScript (Fetch API), Google Fonts (Space Mono)
+- **API:** NASA Astronomy Picture of the Day
+- **Hosting:** GitHub Pages
+
   
 ## How to Use
 

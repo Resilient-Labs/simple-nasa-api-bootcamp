@@ -1,10 +1,34 @@
-README for NASA Photo of the Day Project
-Goal: Enable your user to enter a date and return the picture/video of the day from NASA's API
+# NASA Picture of the Day
 
-User is able to enter in a date and receive the NASA picture of the day from the NASA API
+Enter a date and see NASA's Astronomy Picture of the Day for that date.
 
-API's Used
-NASA - https://science.nasa.gov/wp-json/wp/v2/apod-basic/${realDate}
+A small front-end exercise from the 100Devs bootcamp: a single page that fetches from NASA's API and shows the photo, its title, and its description.
 
-- used to get all of the data for that given date.
-- we then isolated an display the name and photo for the user to see.
+## What it does
+
+- Takes a date from the user (month/day/year) and fetches NASA's picture of the day for that date.
+- Shows the picture's title, the image itself, and NASA's explanation.
+
+## Tech stack
+
+- HTML, CSS, JavaScript (no build step, no server)
+- NASA Astronomy Picture of the Day API (`science.nasa.gov` APOD endpoint)
+
+## How to run it
+
+Open `index.html` in a browser, type a date, and click **Get Picture**. No API key or install step is needed.
+
+## Project structure
+
+```
+index.html         - date input, button, and the title / image / description it fills in
+css/style.css      - page styling
+css/normalize.css
+css/reset.css
+js/main.js         - date handling and the fetch to NASA's APOD API
+img/               - images used by the page styling (not screenshots)
+```
+
+---
+
+Thay Brown — thaybrown22@gmail.com · https://thaythecoder.netlify.app · https://github.com/tbrown320 · https://www.linkedin.com/in/thaybrown

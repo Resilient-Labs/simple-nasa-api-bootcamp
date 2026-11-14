@@ -2,7 +2,7 @@
 
 Enter a date and see NASA's Astronomy Picture of the Day for that date.
 
-A small front-end exercise from the 100Devs bootcamp: a single page that fetches from NASA's API and shows the photo, its title, and its description.
+![Screenshot of working page](Screenshot.png)
 
 ## What it does
 

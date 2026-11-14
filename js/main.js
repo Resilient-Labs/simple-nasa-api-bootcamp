@@ -28,13 +28,13 @@ function getPicture() {
     //bring the variables together in a new string that can be inserted into the fetch
     let realDate = [year, month, day].join('')
     console.log(realDate)
-    
+
 
     fetch(`https://science.nasa.gov/wp-json/wp/v2/apod-basic/${realDate}`)
         .then(res => res.json())
         .then(space_data => {
             console.log(space_data)
-                
+
             document.querySelector('h2').innerText = space_data.title
             document.querySelector('img').src = space_data.hdurl
             document.querySelector('h3').innerHTML = space_data.explanation
